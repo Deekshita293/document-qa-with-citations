@@ -71,12 +71,12 @@ The initial evaluation produced the following average keyword coverage results:
 
 | Chunking strategy | Top 3 | Top 4 | Top 10 |
 |---|---:|---:|---:|
-| Recursive character | 61.33% | 66.67% | 83.33% |
+| Recursive character | 61.67% | 66.67% | 83.33% |
 | Sentence-based | 49.33% | 56.00% | 62.67% |
 
 ### 6.1 Discussion
 
-Recursive character chunking achieved higher keyword coverage than sentence-based chunking at all three retrieval settings in this evaluation set. Its coverage increased from 61.33% with three passages to 83.33% with ten passages.
+Recursive character chunking achieved higher keyword coverage than sentence-based chunking at all three retrieval settings in this evaluation set. Its coverage increased from 61.67% with three passages to 83.33% with ten passages.
 
 Four passages were selected for the question-answering system as a compromise between retrieval coverage and the amount of context supplied to the language model.
 
