@@ -1,0 +1,49 @@
+﻿strategy,k,question,answerable,expected_answer,expected_keyword_count,matched_keyword_count,matched_keywords,keyword_coverage_percent,top_similarity,top_source,top_page
+Recursive character,3,What is the title of the research paper?,True,Deep Learning in Neural Networks: An Overview,5,5,"deep, learning, networks, neural, overview",100.0,0.347817,Deep Learning in Neural Networks.pdf,1
+Recursive character,3,Who is the author of the research paper?,True,Jürgen Schmidhuber,2,0,,0.0,0.34891,Deep Learning in Neural Networks.pdf,1
+Recursive character,3,What date is listed on the paper's title page?,True,8 October 2014,3,2,"2014, 8",66.67,0.236642,Deep Learning in Neural Networks.pdf,2
+Recursive character,3,"According to the abstract, what fields have deep neural networks won contests in?",True,Pattern recognition and machine learning,4,3,"learning, pattern, recognition",75.0,0.598904,Deep Learning in Neural Networks.pdf,4
+Recursive character,3,What types of neural networks are mentioned in the abstract?,True,Recurrent neural networks,3,2,"networks, neural",66.67,0.600317,Deep Learning in Neural Networks.pdf,55
+Recursive character,3,What is the capital of Japan?,False,Tokyo,,,,,0.10816,Deep Learning in Neural Networks.pdf,69
+Recursive character,3,What is the boiling point of pure water at sea level?,False,100 degrees Celsius,,,,,0.190323,Deep Learning in Neural Networks.pdf,17
+Recursive character,3,Who won the 2024 Olympic men's 100 metre final?,False,No answer in the provided paper,,,,,0.234163,Deep Learning in Neural Networks.pdf,23
+Recursive character,4,What is the title of the research paper?,True,Deep Learning in Neural Networks: An Overview,5,5,"deep, learning, networks, neural, overview",100.0,0.347817,Deep Learning in Neural Networks.pdf,1
+Recursive character,4,Who is the author of the research paper?,True,Jürgen Schmidhuber,2,0,,0.0,0.34891,Deep Learning in Neural Networks.pdf,1
+Recursive character,4,What date is listed on the paper's title page?,True,8 October 2014,3,2,"2014, 8",66.67,0.236642,Deep Learning in Neural Networks.pdf,2
+Recursive character,4,"According to the abstract, what fields have deep neural networks won contests in?",True,Pattern recognition and machine learning,4,4,"learning, machine, pattern, recognition",100.0,0.598904,Deep Learning in Neural Networks.pdf,4
+Recursive character,4,What types of neural networks are mentioned in the abstract?,True,Recurrent neural networks,3,2,"networks, neural",66.67,0.600317,Deep Learning in Neural Networks.pdf,55
+Recursive character,4,What is the capital of Japan?,False,Tokyo,,,,,0.10816,Deep Learning in Neural Networks.pdf,69
+Recursive character,4,What is the boiling point of pure water at sea level?,False,100 degrees Celsius,,,,,0.190323,Deep Learning in Neural Networks.pdf,17
+Recursive character,4,Who won the 2024 Olympic men's 100 metre final?,False,No answer in the provided paper,,,,,0.234163,Deep Learning in Neural Networks.pdf,23
+Recursive character,10,What is the title of the research paper?,True,Deep Learning in Neural Networks: An Overview,5,5,"deep, learning, networks, neural, overview",100.0,0.347817,Deep Learning in Neural Networks.pdf,1
+Recursive character,10,Who is the author of the research paper?,True,Jürgen Schmidhuber,2,1,schmidhuber,50.0,0.34891,Deep Learning in Neural Networks.pdf,1
+Recursive character,10,What date is listed on the paper's title page?,True,8 October 2014,3,2,"2014, 8",66.67,0.236642,Deep Learning in Neural Networks.pdf,2
+Recursive character,10,"According to the abstract, what fields have deep neural networks won contests in?",True,Pattern recognition and machine learning,4,4,"learning, machine, pattern, recognition",100.0,0.598904,Deep Learning in Neural Networks.pdf,4
+Recursive character,10,What types of neural networks are mentioned in the abstract?,True,Recurrent neural networks,3,3,"networks, neural, recurrent",100.0,0.600317,Deep Learning in Neural Networks.pdf,55
+Recursive character,10,What is the capital of Japan?,False,Tokyo,,,,,0.10816,Deep Learning in Neural Networks.pdf,69
+Recursive character,10,What is the boiling point of pure water at sea level?,False,100 degrees Celsius,,,,,0.190323,Deep Learning in Neural Networks.pdf,17
+Recursive character,10,Who won the 2024 Olympic men's 100 metre final?,False,No answer in the provided paper,,,,,0.234163,Deep Learning in Neural Networks.pdf,23
+Sentence-based,3,What is the title of the research paper?,True,Deep Learning in Neural Networks: An Overview,5,4,"deep, learning, neural, overview",80.0,0.380509,Deep Learning in Neural Networks.pdf,49
+Sentence-based,3,Who is the author of the research paper?,True,Jürgen Schmidhuber,2,0,,0.0,0.370742,Deep Learning in Neural Networks.pdf,49
+Sentence-based,3,What date is listed on the paper's title page?,True,8 October 2014,3,0,,0.0,0.344139,Deep Learning in Neural Networks.pdf,49
+Sentence-based,3,"According to the abstract, what fields have deep neural networks won contests in?",True,Pattern recognition and machine learning,4,4,"learning, machine, pattern, recognition",100.0,0.598904,Deep Learning in Neural Networks.pdf,4
+Sentence-based,3,What types of neural networks are mentioned in the abstract?,True,Recurrent neural networks,3,2,"networks, neural",66.67,0.600317,Deep Learning in Neural Networks.pdf,55
+Sentence-based,3,What is the capital of Japan?,False,Tokyo,,,,,0.11229,Deep Learning in Neural Networks.pdf,12
+Sentence-based,3,What is the boiling point of pure water at sea level?,False,100 degrees Celsius,,,,,0.196393,Deep Learning in Neural Networks.pdf,12
+Sentence-based,3,Who won the 2024 Olympic men's 100 metre final?,False,No answer in the provided paper,,,,,0.298772,Deep Learning in Neural Networks.pdf,23
+Sentence-based,4,What is the title of the research paper?,True,Deep Learning in Neural Networks: An Overview,5,4,"deep, learning, neural, overview",80.0,0.380509,Deep Learning in Neural Networks.pdf,49
+Sentence-based,4,Who is the author of the research paper?,True,Jürgen Schmidhuber,2,0,,0.0,0.370742,Deep Learning in Neural Networks.pdf,49
+Sentence-based,4,What date is listed on the paper's title page?,True,8 October 2014,3,1,2014,33.33,0.344139,Deep Learning in Neural Networks.pdf,49
+Sentence-based,4,"According to the abstract, what fields have deep neural networks won contests in?",True,Pattern recognition and machine learning,4,4,"learning, machine, pattern, recognition",100.0,0.598904,Deep Learning in Neural Networks.pdf,4
+Sentence-based,4,What types of neural networks are mentioned in the abstract?,True,Recurrent neural networks,3,2,"networks, neural",66.67,0.600317,Deep Learning in Neural Networks.pdf,55
+Sentence-based,4,What is the capital of Japan?,False,Tokyo,,,,,0.11229,Deep Learning in Neural Networks.pdf,12
+Sentence-based,4,What is the boiling point of pure water at sea level?,False,100 degrees Celsius,,,,,0.196393,Deep Learning in Neural Networks.pdf,12
+Sentence-based,4,Who won the 2024 Olympic men's 100 metre final?,False,No answer in the provided paper,,,,,0.298772,Deep Learning in Neural Networks.pdf,23
+Sentence-based,10,What is the title of the research paper?,True,Deep Learning in Neural Networks: An Overview,5,4,"deep, learning, neural, overview",80.0,0.380509,Deep Learning in Neural Networks.pdf,49
+Sentence-based,10,Who is the author of the research paper?,True,Jürgen Schmidhuber,2,0,,0.0,0.370742,Deep Learning in Neural Networks.pdf,49
+Sentence-based,10,What date is listed on the paper's title page?,True,8 October 2014,3,1,2014,33.33,0.344139,Deep Learning in Neural Networks.pdf,49
+Sentence-based,10,"According to the abstract, what fields have deep neural networks won contests in?",True,Pattern recognition and machine learning,4,4,"learning, machine, pattern, recognition",100.0,0.598904,Deep Learning in Neural Networks.pdf,4
+Sentence-based,10,What types of neural networks are mentioned in the abstract?,True,Recurrent neural networks,3,3,"networks, neural, recurrent",100.0,0.600317,Deep Learning in Neural Networks.pdf,55
+Sentence-based,10,What is the capital of Japan?,False,Tokyo,,,,,0.11229,Deep Learning in Neural Networks.pdf,12
+Sentence-based,10,What is the boiling point of pure water at sea level?,False,100 degrees Celsius,,,,,0.196393,Deep Learning in Neural Networks.pdf,12
+Sentence-based,10,Who won the 2024 Olympic men's 100 metre final?,False,No answer in the provided paper,,,,,0.298772,Deep Learning in Neural Networks.pdf,23

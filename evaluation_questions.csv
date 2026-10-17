@@ -1,0 +1,9 @@
+question,expected_answer,answerable
+"What is the title of the research paper?","Deep Learning in Neural Networks: An Overview",true
+"Who is the author of the research paper?","Jürgen Schmidhuber",true
+"What date is listed on the paper's title page?","8 October 2014",true
+"According to the abstract, what fields have deep neural networks won contests in?","Pattern recognition and machine learning",true
+"What types of neural networks are mentioned in the abstract?","Recurrent neural networks",true
+"What is the capital of Japan?","Tokyo",false
+"What is the boiling point of pure water at sea level?","100 degrees Celsius",false
+"Who won the 2024 Olympic men's 100 metre final?","No answer in the provided paper",false

@@ -1,0 +1,1216 @@
+﻿strategy,question,expected_answer,answerable,rank,similarity,source,page,retrieved_text
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,1,0.347817,Deep Learning in Neural Networks.pdf,1,"publications properly acknowledge earlier relevant work, additional global search strategies were em-
+ployed, aided by consulting numerous neural network experts. As a result, the present preprint mostly
+consists of references. Nevertheless, through an expert selection bias I may have missed important
+work. A related bias was surely introduced by my special familiarity with the work of my own DL
+research group in the past quarter-century. For these reasons, this work should be viewed as merely a
+snapshot of an ongoing credit assignment process. To help improve it, please do not hesitate to send
+corrections and suggestions to juergen@idsia.ch.
+1
+arXiv:1404.7828v4  [cs.NE]  8 Oct 2014"
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,2,0.334222,Deep Learning in Neural Networks.pdf,1,"and indirect search for short programs encoding deep and large networks.
+LATEX source: http://www.idsia.ch/˜juergen/DeepLearning8Oct2014.tex
+Complete BIBTEX ﬁle (888 kB): http://www.idsia.ch/˜juergen/deep.bib
+Preface
+This is the preprint of an invited Deep Learning (DL) overview. One of its goals is to assign credit
+to those who contributed to the present state of the art. I acknowledge the limitations of attempting
+to achieve this goal. The DL research community itself may be viewed as a continually evolving,
+deep network of scientists who have inﬂuenced each other in complex ways. Starting from recent DL
+results, I tried to trace back the origins of relevant ideas through the past half century and beyond,
+sometimes using “local search” to follow citations of citations backwards in time. Since not all DL
+publications properly acknowledge earlier relevant work, additional global search strategies were em-"
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,3,0.282335,Deep Learning in Neural Networks.pdf,69,"Wiss. Z. Tech. Hochschule f¨ur Chemie, 13:382–384.
+Otsuka, M. (2010). Goal-Oriented Representation of the External World: A Free-Energy-Based Ap-
+proach. PhD thesis, Nara Institute of Science and Technology.
+69"
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,4,0.24654,Deep Learning in Neural Networks.pdf,77,"Schmidhuber, J., Zhao, J., and Wiering, M. (1997b). Shifting inductive bias with success-story algo-
+rithm, adaptive Levin search, and incremental self-improvement. Machine Learning, 28:105–130.
+Sch¨olkopf, B., Burges, C. J. C., and Smola, A. J., editors (1998). Advances in Kernel Methods -
+Support Vector Learning. MIT Press, Cambridge, MA.
+77"
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,5,0.245349,Deep Learning in Neural Networks.pdf,62,"tion. In Mozer, M. C., Smolensky, P., Touretzky, D. S., Elman, J. L., and Weigend, A. S., editors,
+Proc. of the 1993 Connectionist Models Summer School , pages 308–315. Hillsdale, NJ: Erlbaum
+Associates.
+62"
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,6,0.234643,Deep Learning in Neural Networks.pdf,84,"von der Malsburg, C. (1973). Self-organization of orientation sensitive cells in the striate cortex.
+Kybernetik, 14(2):85–100.
+Waldinger, R. J. and Lee, R. C. T. (1969). PROW: a step toward automatic program writing. In
+Walker, D. E. and Norton, L. M., editors, Proceedings of the 1st International Joint Conference on
+Artiﬁcial Intelligence (IJCAI), pages 241–252. Morgan Kaufmann.
+Wallace, C. S. and Boulton, D. M. (1968). An information theoretic measure for classiﬁcation. Com-
+puter Journal, 11(2):185–194.
+Wan, E. A. (1994). Time series prediction by using a connectionist network with internal delay lines.
+In Weigend, A. S. and Gershenfeld, N. A., editors, Time series prediction: Forecasting the future
+and understanding the past, pages 265–295. Addison-Wesley.
+Wang, C., Venkatesh, S. S., and Judd, J. S. (1994). Optimal stopping and effective machine complexity
+in learning. In Advances in Neural Information Processing Systems (NIPS’6) , pages 303–310.
+Morgan Kaufmann."
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,7,0.232101,Deep Learning in Neural Networks.pdf,35,"imization, by ﬁnding simple (highly generalizing) problem solutions that require few active neurons
+and few, mostly short connections.
+The more distant future may belong to general purpose learning algorithms that improve them-
+selves in provably optimal ways (Sec. 6.8), but these are not yet practical or commercially relevant.
+8 Acknowledgments
+Since 16 April 2014, drafts of this paper have undergone massive open online peer review through
+public mailing lists includingconnectionists@cs.cmu.edu, ml-news@googlegroups.com, comp-neuro-
+@neuroinf.org, genetic programming@yahoogroups.com, rl-list@googlegroups.com, imageworld-
+@diku.dk, Google+ machine learning forum. Thanks to numerous NN / DL experts for valuable
+comments. Thanks to SNF, DFG, and the European Commission for partially funding my DL re-
+search group in the past quarter-century. The contents of this paper may be used for educational and
+non-commercial purposes, including articles for Wikipedia and similar sites.
+References"
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,8,0.206514,Deep Learning in Neural Networks.pdf,60,"D. S., Moody, J. E., and Touretzky, D. S., editors, Advances in Neural Information Processing
+Systems 4, pages 950–957. Morgan Kaufmann.
+Kruger, N., Janssen, P., Kalkan, S., Lappe, M., Leonardis, A., Piater, J., Rodriguez-Sanchez, A., and
+Wiskott, L. (2013). Deep hierarchies in the primate visual cortex: What can we learn for computer
+vision? IEEE Transactions on Pattern Analysis and Machine Intelligence, 35(8):1847–1871.
+Kullback, S. and Leibler, R. A. (1951). On information and sufﬁciency. The Annals of Mathematical
+Statistics, pages 79–86.
+Kurzweil, R. (2012). How to Create a Mind: The Secret of Human Thought Revealed.
+Lagoudakis, M. G. and Parr, R. (2003). Least-squares policy iteration. JMLR, 4:1107–1149.
+Lampinen, J. and Oja, E. (1992). Clustering properties of hierarchical self-organizing maps. Journal
+of Mathematical Imaging and Vision, 2(2-3):261–272.
+Lang, K., Waibel, A., and Hinton, G. E. (1990). A time-delay neural network architecture for isolated"
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,9,0.20337,Deep Learning in Neural Networks.pdf,68,"Neuneier, R. and Zimmermann, H.-G. (1996). How to train neural networks. In Orr, G. B. and M¨uller,
+K.-R., editors, Neural Networks: Tricks of the Trade , volume 1524 of Lecture Notes in Computer
+Science, pages 373–423. Springer.
+Newton, I. (1687). Philosophiae naturalis principia mathematica . William Dawson & Sons Ltd.,
+London.
+Nguyen, N. and Widrow, B. (1989). The truck backer-upper: An example of self learning in neural
+networks. In Proceedings of the International Joint Conference on Neural Networks , pages 357–
+363. IEEE Press.
+68"
+Recursive character,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,10,0.202406,Deep Learning in Neural Networks.pdf,23,"qualifying it was possible to incrementally gain information about the test set by probing it through
+repeated submissions. This is illustrated by better and better results obtained by various teams over
+time (Stallkamp et al., 2012) (the organisers eventually imposed a limit of 10 resubmissions). In the
+ﬁnal competition this was not possible.
+23"
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,1,0.34891,Deep Learning in Neural Networks.pdf,1,"and indirect search for short programs encoding deep and large networks.
+LATEX source: http://www.idsia.ch/˜juergen/DeepLearning8Oct2014.tex
+Complete BIBTEX ﬁle (888 kB): http://www.idsia.ch/˜juergen/deep.bib
+Preface
+This is the preprint of an invited Deep Learning (DL) overview. One of its goals is to assign credit
+to those who contributed to the present state of the art. I acknowledge the limitations of attempting
+to achieve this goal. The DL research community itself may be viewed as a continually evolving,
+deep network of scientists who have inﬂuenced each other in complex ways. Starting from recent DL
+results, I tried to trace back the origins of relevant ideas through the past half century and beyond,
+sometimes using “local search” to follow citations of citations backwards in time. Since not all DL
+publications properly acknowledge earlier relevant work, additional global search strategies were em-"
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,2,0.343918,Deep Learning in Neural Networks.pdf,1,"publications properly acknowledge earlier relevant work, additional global search strategies were em-
+ployed, aided by consulting numerous neural network experts. As a result, the present preprint mostly
+consists of references. Nevertheless, through an expert selection bias I may have missed important
+work. A related bias was surely introduced by my special familiarity with the work of my own DL
+research group in the past quarter-century. For these reasons, this work should be viewed as merely a
+snapshot of an ongoing credit assignment process. To help improve it, please do not hesitate to send
+corrections and suggestions to juergen@idsia.ch.
+1
+arXiv:1404.7828v4  [cs.NE]  8 Oct 2014"
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,3,0.287666,Deep Learning in Neural Networks.pdf,62,"tion. In Mozer, M. C., Smolensky, P., Touretzky, D. S., Elman, J. L., and Weigend, A. S., editors,
+Proc. of the 1993 Connectionist Models Summer School , pages 308–315. Hillsdale, NJ: Erlbaum
+Associates.
+62"
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,4,0.241335,Deep Learning in Neural Networks.pdf,48,"93(26):429–441.
+Gallant, S. I. (1988). Connectionist expert systems. Communications of the ACM, 31(2):152–169.
+Gauss, C. F. (1809). Theoria motus corporum coelestium in sectionibus conicis solem ambientium.
+Gauss, C. F. (1821). Theoria combinationis observationum erroribus minimis obnoxiae (Theory of
+the combination of observations least subject to error).
+48"
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,5,0.241028,Deep Learning in Neural Networks.pdf,69,"Wiss. Z. Tech. Hochschule f¨ur Chemie, 13:382–384.
+Otsuka, M. (2010). Goal-Oriented Representation of the External World: A Free-Energy-Based Ap-
+proach. PhD thesis, Nara Institute of Science and Technology.
+69"
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,6,0.233902,Deep Learning in Neural Networks.pdf,84,"von der Malsburg, C. (1973). Self-organization of orientation sensitive cells in the striate cortex.
+Kybernetik, 14(2):85–100.
+Waldinger, R. J. and Lee, R. C. T. (1969). PROW: a step toward automatic program writing. In
+Walker, D. E. and Norton, L. M., editors, Proceedings of the 1st International Joint Conference on
+Artiﬁcial Intelligence (IJCAI), pages 241–252. Morgan Kaufmann.
+Wallace, C. S. and Boulton, D. M. (1968). An information theoretic measure for classiﬁcation. Com-
+puter Journal, 11(2):185–194.
+Wan, E. A. (1994). Time series prediction by using a connectionist network with internal delay lines.
+In Weigend, A. S. and Gershenfeld, N. A., editors, Time series prediction: Forecasting the future
+and understanding the past, pages 265–295. Addison-Wesley.
+Wang, C., Venkatesh, S. S., and Judd, J. S. (1994). Optimal stopping and effective machine complexity
+in learning. In Advances in Neural Information Processing Systems (NIPS’6) , pages 303–310.
+Morgan Kaufmann."
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,7,0.228762,Deep Learning in Neural Networks.pdf,79,"Advanced Neural Computers, pages 151–158, Amsterdam. Elsevier.
+S´ıma, J. (1994). Loading deep networks is hard. Neural Computation, 6(5):842–850.
+S´ıma, J. (2002). Training a single sigmoidal neuron is hard. Neural Computation, 14(11):2709–2728.
+Simard, P., Steinkraus, D., and Platt, J. (2003). Best practices for convolutional neural networks
+applied to visual document analysis. In Seventh International Conference on Document Analysis
+and Recognition, pages 958–963.
+Sims, K. (1994). Evolving virtual creatures. In Glassner, A., editor, Proceedings of SIGGRAPH ’94
+(Orlando, Florida, July 1994), Computer Graphics Proceedings, Annual Conference, pages 15–22.
+ACM SIGGRAPH, ACM Press. ISBN 0-89791-667-0.
+Simsek, ¨O. and Barto, A. G. (2008). Skill characterization based on betweenness. In NIPS’08, pages
+1497–1504.
+Singh, S., Barto, A. G., and Chentanez, N. (2005). Intrinsically motivated reinforcement learning. In"
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,8,0.227424,Deep Learning in Neural Networks.pdf,62,"Leibniz, G. W. (1676). Memoir using the chain rule (cited in TMME 7:2&3 p 321-332, 2010).
+Leibniz, G. W. (1684). Nova methodus pro maximis et minimis, itemque tangentibus, quae nec
+fractas, nec irrationales quantitates moratur, et singulare pro illis calculi genus. Acta Eruditorum,
+pages 467–473.
+Lenat, D. B. (1983). Theory formation by heuristic search. Machine Learning, 21.
+Lenat, D. B. and Brown, J. S. (1984). Why AM an EURISKO appear to work. Artiﬁcial Intelligence,
+23(3):269–294.
+Lennie, P. and Movshon, J. A. (2005). Coding of color and form in the geniculostriate visual pathway.
+Journal of the Optical Society of America A, 22(10):2013–2033.
+Levenberg, K. (1944). A method for the solution of certain problems in least squares. Quarterly of
+applied mathematics, 2:164–168.
+Levin, A. U., Leen, T. K., and Moody, J. E. (1994). Fast pruning using principal components. In
+Advances in Neural Information Processing Systems 6, page 35. Morgan Kaufmann."
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,9,0.226702,Deep Learning in Neural Networks.pdf,32,"Gomez, 2003; Gomez and Miikkulainen, 2003). This can help to solve deep POMDPs (Gomez and
+Schmidhuber, 2005). Co-Synaptic Neuro-Evolution (CoSyNE) does something similar on the level of
+32"
+Recursive character,Who is the author of the research paper?,Jürgen Schmidhuber,True,10,0.205902,Deep Learning in Neural Networks.pdf,10,"gation (Sec. 5.5, 5.8), but by local, WTA-basedunsupervised learning rules (e.g., Fukushima, 2013b),
+or by pre-wiring. In that sense he did not care for the DL problem (Sec. 5.9), although his architecture
+was comparatively deep indeed. For downsampling purposes he used Spatial Averaging (Fukushima,
+1980, 2011) instead of Max-Pooling (MP, Sec. 5.11), currently a particularly convenient and popular
+WTA mechanism. Today’s DL combinations of CNNs and MP and BP also proﬁt a lot from later
+work (e.g., Sec. 5.8, 5.16, 5.16, 5.19).
+10"
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,1,0.236642,Deep Learning in Neural Networks.pdf,2,"5.8 1989: BP for Convolutional NNs (CNNs, Sec. 5.4) . . . . . . . . . . . . . . . . . . 16
+5.9 1991: Fundamental Deep Learning Problem of Gradient Descent . . . . . . . . . . . 16
+5.10 1991: UL-Based History Compression Through a Deep Stack of RNNs . . . . . . . 17
+5.11 1992: Max-Pooling (MP): Towards MPCNNs (Compare Sec. 5.16, 5.19) . . . . . . . 18
+5.12 1994: Early Contest-Winning NNs . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+5.13 1995: Supervised Recurrent Very Deep Learner (LSTM RNN) . . . . . . . . . . . . 19
+5.14 2003: More Contest-Winning/Record-Setting NNs; Successful Deep NNs . . . . . . 21
+5.15 2006/7: UL For Deep Belief Networks / AE Stacks Fine-Tuned by BP . . . . . . . . 21
+5.16 2006/7: Improved CNNs / GPU-CNNs / BP for MPCNNs / LSTM Stacks . . . . . . 22
+5.17 2009: First Ofﬁcial Competitions Won by RNNs, and with MPCNNs . . . . . . . . . 22
+5.18 2010: Plain Backprop ( + Distortions) on GPU Breaks MNIST Record . . . . . . . . 23"
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,2,0.210136,Deep Learning in Neural Networks.pdf,34,"(Sec. 5.6.4). They will also implement Occam’s razor (Sec. 4.4, 5.6.3) as a by-product of energy min-
+34"
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,3,0.205513,Deep Learning in Neural Networks.pdf,59,"pages 619–626.
+Koutn´ık, J., Greff, K., Gomez, F., and Schmidhuber, J. (2014). A Clockwork RNN. In Proceedings
+of the 31th International Conference on Machine Learning (ICML), volume 32, pages 1845–1853.
+arXiv:1402.3511 [cs.NE].
+59"
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,4,0.199942,Deep Learning in Neural Networks.pdf,4,"competitions (Sec. 5.17–5.23). Sec. 5 is arranged in a historical timeline format with subsections on
+important inspirations and technical contributions. Sec. 6 on deep RL discusses traditional Dynamic
+Programming (DP)-based RL combined with gradient-based search techniques for SL or UL in deep
+4"
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,5,0.195168,Deep Learning in Neural Networks.pdf,9,"UL in the same section: often gradient-based methods, such as BP (Sec. 5.5.1), are used to optimize
+objective functions of both UL and SL, and the boundary between SL and UL may blur, for example,
+when it comes to time series prediction and sequence classiﬁcation, e.g., Sec. 5.10, 5.12.
+A historical timeline format will help to arrange subsections on important inspirations and techni-
+cal contributions (although such a subsection may span a time interval of many years). Sec. 5.1 brieﬂy
+mentions early, shallow NN models since the 1940s (and 1800s), Sec. 5.2 additional early neurobio-
+logical inspiration relevant for modern Deep Learning (DL). Sec. 5.3 is about GMDH networks (since
+1965), to my knowledge the ﬁrst (feedforward) DL systems. Sec. 5.4 is about the relatively deep
+Neocognitron NN (1979) which is very similar to certain modern deep FNN architectures, as it com-
+bines convolutional NNs (CNNs), weight pattern replication, and subsampling mechanisms. Sec. 5.5"
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,6,0.192309,Deep Learning in Neural Networks.pdf,84,"von der Malsburg, C. (1973). Self-organization of orientation sensitive cells in the striate cortex.
+Kybernetik, 14(2):85–100.
+Waldinger, R. J. and Lee, R. C. T. (1969). PROW: a step toward automatic program writing. In
+Walker, D. E. and Norton, L. M., editors, Proceedings of the 1st International Joint Conference on
+Artiﬁcial Intelligence (IJCAI), pages 241–252. Morgan Kaufmann.
+Wallace, C. S. and Boulton, D. M. (1968). An information theoretic measure for classiﬁcation. Com-
+puter Journal, 11(2):185–194.
+Wan, E. A. (1994). Time series prediction by using a connectionist network with internal delay lines.
+In Weigend, A. S. and Gershenfeld, N. A., editors, Time series prediction: Forecasting the future
+and understanding the past, pages 265–295. Addison-Wesley.
+Wang, C., Venkatesh, S. S., and Judd, J. S. (1994). Optimal stopping and effective machine complexity
+in learning. In Advances in Neural Information Processing Systems (NIPS’6) , pages 303–310.
+Morgan Kaufmann."
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,7,0.191053,Deep Learning in Neural Networks.pdf,40,"Bishop, C. M. (1993). Curvature-driven smoothing: A learning algorithm for feed-forward networks.
+IEEE Transactions on Neural Networks, 4(5):882–884.
+Bishop, C. M. (2006). Pattern Recognition and Machine Learning. Springer.
+Blair, A. D. and Pollack, J. B. (1997). Analysis of dynamical recognizers. Neural Computation,
+9(5):1127–1142.
+Blondel, V . D. and Tsitsiklis, J. N. (2000). A survey of computational complexity results in systems
+and control. Automatica, 36(9):1249–1274.
+Bluche, T., Louradour, J., Knibbe, M., Moysset, B., Benzeghiba, F., and Kermorvant, C. (2014).
+The A2iA Arabic Handwritten Text Recognition System at the OpenHaRT2013 Evaluation. In
+International Workshop on Document Analysis Systems.
+Blum, A. L. and Rivest, R. L. (1992). Training a 3-node neural network is np-complete. Neural
+Networks, 5(1):117–127.
+Blumer, A., Ehrenfeucht, A., Haussler, D., and Warmuth, M. K. (1987). Occam’s razor. Information
+Processing Letters, 24:377–380."
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,8,0.185437,Deep Learning in Neural Networks.pdf,18,"5.23).
+5.12 1994: Early Contest-Winning NNs
+Back in the 1990s, certain NNs already won certain controlled pattern recognition contests with secret
+test sets. Notably, an NN with internal delay lines won the Santa Fe time-series competition on chaotic
+intensity pulsations of an NH3 laser (Wan, 1994; Weigend and Gershenfeld, 1993). No very deep
+CAPs (Sec. 3) were needed though.
+18"
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,9,0.177299,Deep Learning in Neural Networks.pdf,1,"publications properly acknowledge earlier relevant work, additional global search strategies were em-
+ployed, aided by consulting numerous neural network experts. As a result, the present preprint mostly
+consists of references. Nevertheless, through an expert selection bias I may have missed important
+work. A related bias was surely introduced by my special familiarity with the work of my own DL
+research group in the past quarter-century. For these reasons, this work should be viewed as merely a
+snapshot of an ongoing credit assignment process. To help improve it, please do not hesitate to send
+corrections and suggestions to juergen@idsia.ch.
+1
+arXiv:1404.7828v4  [cs.NE]  8 Oct 2014"
+Recursive character,What date is listed on the paper's title page?,8 October 2014,True,10,0.163779,Deep Learning in Neural Networks.pdf,79,"Advanced Neural Computers, pages 151–158, Amsterdam. Elsevier.
+S´ıma, J. (1994). Loading deep networks is hard. Neural Computation, 6(5):842–850.
+S´ıma, J. (2002). Training a single sigmoidal neuron is hard. Neural Computation, 14(11):2709–2728.
+Simard, P., Steinkraus, D., and Platt, J. (2003). Best practices for convolutional neural networks
+applied to visual document analysis. In Seventh International Conference on Document Analysis
+and Recognition, pages 958–963.
+Sims, K. (1994). Evolving virtual creatures. In Glassner, A., editor, Proceedings of SIGGRAPH ’94
+(Orlando, Florida, July 1994), Computer Graphics Proceedings, Annual Conference, pages 15–22.
+ACM SIGGRAPH, ACM Press. ISBN 0-89791-667-0.
+Simsek, ¨O. and Barto, A. G. (2008). Skill characterization based on betweenness. In NIPS’08, pages
+1497–1504.
+Singh, S., Barto, A. G., and Chentanez, N. (2005). Intrinsically motivated reinforcement learning. In"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,1,0.598904,Deep Learning in Neural Networks.pdf,4,"1 Introduction to Deep Learning (DL) in Neural Networks (NNs)
+Which modiﬁable components of a learning system are responsible for its success or failure? What
+changes to them improve performance? This has been called thefundamental credit assignment prob-
+lem (Minsky, 1963). There are general credit assignment methods for universal problem solvers that
+are time-optimal in various theoretical senses (Sec. 6.8). The present survey, however, will focus on
+the narrower, but now commercially important, subﬁeld of Deep Learning (DL) in Artiﬁcial Neural
+Networks (NNs).
+A standard neural network (NN) consists of many simple, connected processors called neurons,
+each producing a sequence of real-valued activations. Input neurons get activated through sensors per-
+ceiving the environment, other neurons get activated through weighted connections from previously
+active neurons (details in Sec. 2). Some neurons may inﬂuence the environment by triggering actions."
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,2,0.579729,Deep Learning in Neural Networks.pdf,9,"trained by UL helped to solve previously unlearnable DL benchmarks requiring Credit Assignment
+Paths (CAPs, Sec. 3) of depth 1000 and more. Sec. 5.11 discusses a particularwinner-take-all (WTA)
+method called Max-Pooling (MP, 1992) widely used in today’s deep FNNs. Sec. 5.12 mentions a
+ﬁrst important contest won by SL NNs in 1994. Sec. 5.13 describes a purely supervised DL RNN
+(Long Short-Term Memory, LSTM, 1995) for problems of depth 1000 and more. Sec. 5.14 mentions
+an early contest of 2003 won by an ensemble of shallow FNNs, as well as good pattern recognition
+results with CNNs and deep FNNs and LSTM RNNs (2003). Sec. 5.15 is mostly about Deep Belief
+Networks (DBNs, 2006) and related stacks ofAutoencoders (AEs, Sec. 5.7), both pre-trained by UL to
+facilitate subsequent BP-based SL (compare Sec. 5.6.1, 5.10). Sec. 5.16 mentions the ﬁrst SL-based
+GPU-CNNs (2006), BP-trained MPCNNs (2007), and LSTM stacks (2007). Sec. 5.17–5.22 focus on"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,3,0.565536,Deep Learning in Neural Networks.pdf,4,"in numerous important applications. In fact, since 2009, supervised deep NNs have won many ofﬁcial
+international pattern recognition competitions (e.g., Sec. 5.17, 5.19, 5.21, 5.22), achieving the ﬁrst
+superhuman visual pattern recognition results in limited domains (Sec. 5.19, 2011). Deep NNs also
+have become relevant for the more general ﬁeld of Reinforcement Learning (RL) where there is no
+supervising teacher (Sec. 6).
+Both feedforward (acyclic) NNs (FNNs) and recurrent (cyclic) NNs (RNNs) have won contests
+(Sec. 5.12, 5.14, 5.17, 5.19, 5.21, 5.22). In a sense, RNNs are the deepest of all NNs (Sec. 3)—they
+are general computers more powerful than FNNs, and can in principle create and process memories
+of arbitrary sequences of input patterns (e.g., Siegelmann and Sontag, 1991; Schmidhuber, 1990a).
+Unlike traditional methods for automatic sequential program synthesis (e.g., Waldinger and Lee, 1969;"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,4,0.555735,Deep Learning in Neural Networks.pdf,16,"nation, augmented by Max-Pooling (MP, Sec. 5.11, 5.16), and sped up on graphics cards (Sec. 5.19),
+has become an essential ingredient of many modern, competition-winning, feedforward, visual Deep
+Learners (Sec. 5.19–5.23). This work also introduced the MNIST data set of handwritten digits (Le-
+Cun et al., 1989), which over time has become perhaps the most famous benchmark of Machine
+Learning. CNNs helped to achieve good performance on MNIST (LeCun et al., 1990a) (CAP depth
+5) and on ﬁngerprint recognition (Baldi and Chauvin, 1993); similar CNNs were used commercially
+in the 1990s.
+5.9 1991: Fundamental Deep Learning Problem of Gradient Descent
+A diploma thesis (Hochreiter, 1991) represented a milestone of explicit DL research. As mentioned
+in Sec. 5.6, by the late 1980s, experiments had indicated that traditional deep feedforward or re-
+current networks are hard to train by backpropagation (BP) (Sec. 5.5). Hochreiter’s work formally"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,5,0.54148,Deep Learning in Neural Networks.pdf,10,"nets, e.g. (Ikeda et al., 1976; Farlow, 1984; Madala and Ivakhnenko, 1994; Ivakhnenko, 1995; Kondo,
+1998; Kord´ık et al., 2003; Witczak et al., 2006; Kondo and Ueno, 2008).
+5.4 1979: Convolution + Weight Replication + Subsampling (Neocognitron)
+Apart from deep GMDH networks (Sec. 5.3), the Neocognitron (Fukushima, 1979, 1980, 2013a)
+was perhaps the ﬁrst artiﬁcial NN that deserved the attribute deep, and the ﬁrst to incorporate the
+neurophysiological insights of Sec. 5.2. It introduced convolutional NNs (today often called CNNs or
+convnets), where the (typically rectangular) receptive ﬁeld of a convolutional unit with given weight
+vector (a ﬁlter) is shifted step by step across a 2-dimensional array of input values, such as the pixels
+of an image (usually there are several such ﬁlters). The resulting 2D array of subsequent activation
+events of this unit can then provide inputs to higher-level units, and so on. Due to massive weight"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,6,0.539691,Deep Learning in Neural Networks.pdf,24,"mance (around 0.2%) on MNIST (Ciresan et al., 2012c). This represented a dramatic improvement,
+since by then the MNIST record had hovered around 0.4% for almost a decade (Sec. 5.14, 5.16, 5.18).
+Given all the prior work on (MP)CNNs (Sec. 5.4, 5.8, 5.11, 5.16) and GPU-CNNs (Sec. 5.16),
+GPU-MPCNNs are not a breakthrough in the scientiﬁc sense. But they are a commercially relevant
+breakthrough in efﬁcient coding that has made a difference in several contests since 2011. Today, most
+feedforward competition-winning deep NNs are (ensembles of) GPU-MPCNNs (Sec. 5.21–5.23).
+5.20 2011: Hessian-Free Optimization for RNNs
+Also in 2011 it was shown (Martens and Sutskever, 2011) that Hessian-free optimization (e.g., Møller,
+1993; Pearlmutter, 1994; Schraudolph, 2002) (Sec. 5.6.2) can alleviate theFundamental Deep Learn-
+ing Problem (Sec. 5.9) in RNNs, outperforming standard gradient-based LSTM RNNs (Sec. 5.13) on"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,7,0.527228,Deep Learning in Neural Networks.pdf,79,"Advanced Neural Computers, pages 151–158, Amsterdam. Elsevier.
+S´ıma, J. (1994). Loading deep networks is hard. Neural Computation, 6(5):842–850.
+S´ıma, J. (2002). Training a single sigmoidal neuron is hard. Neural Computation, 14(11):2709–2728.
+Simard, P., Steinkraus, D., and Platt, J. (2003). Best practices for convolutional neural networks
+applied to visual document analysis. In Seventh International Conference on Document Analysis
+and Recognition, pages 958–963.
+Sims, K. (1994). Evolving virtual creatures. In Glassner, A., editor, Proceedings of SIGGRAPH ’94
+(Orlando, Florida, July 1994), Computer Graphics Proceedings, Annual Conference, pages 15–22.
+ACM SIGGRAPH, ACM Press. ISBN 0-89791-667-0.
+Simsek, ¨O. and Barto, A. G. (2008). Skill characterization based on betweenness. In NIPS’08, pages
+1497–1504.
+Singh, S., Barto, A. G., and Chentanez, N. (2005). Intrinsically motivated reinforcement learning. In"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,8,0.520781,Deep Learning in Neural Networks.pdf,10,"events of this unit can then provide inputs to higher-level units, and so on. Due to massive weight
+replication (Sec. 2), relatively few parameters (Sec. 4.4) may be necessary to describe the behavior of
+such a convolutional layer.
+Subsampling or downsampling layers consist of units whose ﬁxed-weight connections originate
+from physical neighbours in the convolutional layers below. Subsampling units become active if at
+least one of their inputs is active; their responses are insensitive to certain small image shifts (compare
+Sec. 5.2).
+The Neocognitron is very similar to the architecture of modern, contest-winning, purely super-
+vised, feedforward, gradient-based Deep Learners with alternating convolutional and downsampling
+layers (e.g., Sec. 5.19–5.22). Fukushima, however, did not set the weights by supervised backpropa-
+gation (Sec. 5.5, 5.8), but by local, WTA-basedunsupervised learning rules (e.g., Fukushima, 2013b),"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,9,0.520532,Deep Learning in Neural Networks.pdf,24,"This illustrates a general problem with benchmarks whose test sets are public, or at least can be
+probed to some extent: competing teams tend to overﬁt on the test set even when it cannot be directly
+used for training, only for evaluation.
+In 1997 many thought it a big deal that human chess world champion Kasparov was beaten by
+an IBM computer. But back then computers could not at all compete with little kids in visual pat-
+tern recognition, which seems much harder than chess from a computational perspective. Of course,
+the trafﬁc sign domain is highly restricted, and kids are still much better general pattern recognis-
+ers. Nevertheless, by 2011, deep NNs could already learn to rival them in important limited visual
+domains.
+An ensemble of GPU-MPCNNs was also the ﬁrst method to achieve human-competitive perfor-
+mance (around 0.2%) on MNIST (Ciresan et al., 2012c). This represented a dramatic improvement,"
+Recursive character,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,10,0.520441,Deep Learning in Neural Networks.pdf,34,"While UL can facilitate SL, pure SL for feedforward NNs (FNNs) (Sec. 5.5, 5.8, 5.16, 5.18) and re-
+current NNs (RNNs) (Sec. 5.5, 5.13) did not only win early contests (Sec. 5.12, 5.14) but also most
+of the recent ones (Sec. 5.17–5.22). Especially DL in FNNs proﬁted from GPU implementations
+(Sec. 5.16–5.19). In particular, GPU-based (Sec. 5.19) Max-Pooling (Sec. 5.11) Convolutional NNs
+(Sec. 5.4, 5.8, 5.16) won competitions not only in pattern recognition (Sec. 5.19–5.22) but also image
+segmentation (Sec. 5.21) and object detection (Sec. 5.21, 5.22).
+Unlike these systems, humans learn to actively perceive patterns by sequentially directing atten-
+tion to relevant parts of the available data. Near future deep NNs will do so, too, extending previous
+work since 1990 on NNs that learn selective attention through RL of (a)motor actions such as saccade
+control (Sec. 6.1) and (b)internal actions controlling spotlights of attention within RNNs, thus closing"
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,1,0.600317,Deep Learning in Neural Networks.pdf,55,"Honavar, V . and Uhr, L. M. (1988). A network of neuron-like units that learns to perceive by gen-
+eration as well as reweighting of its links. In Touretzky, D., Hinton, G. E., and Sejnowski, T.,
+editors, Proc. of the 1988 Connectionist Models Summer School, pages 472–484, San Mateo. Mor-
+gan Kaufman.
+Hopﬁeld, J. J. (1982). Neural networks and physical systems with emergent collective computational
+abilities. Proc. of the National Academy of Sciences, 79:2554–2558.
+Hornik, K., Stinchcombe, M., and White, H. (1989). Multilayer feedforward networks are universal
+approximators. Neural Networks, 2(5):359–366.
+Hubel, D. H. and Wiesel, T. (1962). Receptive ﬁelds, binocular interaction, and functional architecture
+in the cat’s visual cortex. Journal of Physiology (London), 160:106–154.
+Hubel, D. H. and Wiesel, T. N. (1968). Receptive ﬁelds and functional architecture of monkey striate
+cortex. The Journal of Physiology, 195(1):215–243."
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,2,0.575235,Deep Learning in Neural Networks.pdf,66,"ume 1, IJCAI’89, pages 762–767, San Francisco, CA, USA. Morgan Kaufmann Publishers Inc.
+Montavon, G., Orr, G., and M¨uller, K. (2012). Neural Networks: Tricks of the Trade. Number LNCS
+7700 in Lecture Notes in Computer Science Series. Springer Verlag.
+66"
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,3,0.561558,Deep Learning in Neural Networks.pdf,10,"nets, e.g. (Ikeda et al., 1976; Farlow, 1984; Madala and Ivakhnenko, 1994; Ivakhnenko, 1995; Kondo,
+1998; Kord´ık et al., 2003; Witczak et al., 2006; Kondo and Ueno, 2008).
+5.4 1979: Convolution + Weight Replication + Subsampling (Neocognitron)
+Apart from deep GMDH networks (Sec. 5.3), the Neocognitron (Fukushima, 1979, 1980, 2013a)
+was perhaps the ﬁrst artiﬁcial NN that deserved the attribute deep, and the ﬁrst to incorporate the
+neurophysiological insights of Sec. 5.2. It introduced convolutional NNs (today often called CNNs or
+convnets), where the (typically rectangular) receptive ﬁeld of a convolutional unit with given weight
+vector (a ﬁlter) is shifted step by step across a 2-dimensional array of input values, such as the pixels
+of an image (usually there are several such ﬁlters). The resulting 2D array of subsequent activation
+events of this unit can then provide inputs to higher-level units, and so on. Due to massive weight"
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,4,0.561252,Deep Learning in Neural Networks.pdf,68,"Neuneier, R. and Zimmermann, H.-G. (1996). How to train neural networks. In Orr, G. B. and M¨uller,
+K.-R., editors, Neural Networks: Tricks of the Trade , volume 1524 of Lecture Notes in Computer
+Science, pages 373–423. Springer.
+Newton, I. (1687). Philosophiae naturalis principia mathematica . William Dawson & Sons Ltd.,
+London.
+Nguyen, N. and Widrow, B. (1989). The truck backer-upper: An example of self learning in neural
+networks. In Proceedings of the International Joint Conference on Neural Networks , pages 357–
+363. IEEE Press.
+68"
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,5,0.557544,Deep Learning in Neural Networks.pdf,10,"5.2 Around 1960: Visual Cortex Provides Inspiration for DL (Sec. 5.4, 5.11)
+Simple cells and complex cells were found in the cat’s visual cortex (e.g., Hubel and Wiesel, 1962;
+Wiesel and Hubel, 1959). These cells ﬁre in response to certain properties of visual sensory inputs,
+such as the orientation of edges. Complex cells exhibit more spatial invariance than simple cells. This
+inspired later deep NN architectures (Sec. 5.4, 5.11) used in certain modern award-winning Deep
+Learners (Sec. 5.19–5.22).
+5.3 1965: Deep Networks Based on the Group Method of Data Handling
+Networks trained by the Group Method of Data Handling (GMDH) (Ivakhnenko and Lapa, 1965;
+Ivakhnenko et al., 1967; Ivakhnenko, 1968, 1971) were perhaps the ﬁrst DL systems of the Feed-
+forward Multilayer Perceptron type, although there was earlier work on NNs with a single hidden
+layer (e.g., Joseph, 1961; Viglione, 1970). The units of GMDH nets may have polynomial activation"
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,6,0.545159,Deep Learning in Neural Networks.pdf,4,"active neurons (details in Sec. 2). Some neurons may inﬂuence the environment by triggering actions.
+Learning or credit assignment is about ﬁnding weights that make the NN exhibit desired behavior,
+such as driving a car. Depending on the problem and how the neurons are connected, such behavior
+may require long causal chains of computational stages (Sec. 3), where each stage transforms (of-
+ten in a non-linear way) the aggregate activation of the network. Deep Learning is about accurately
+assigning credit across many such stages.
+Shallow NN-like models with few such stages have been around for many decades if not centuries
+(Sec. 5.1). Models with several successive nonlinear layers of neurons date back at least to the 1960s
+(Sec. 5.3) and 1970s (Sec. 5.5). An efﬁcient gradient descent method for teacher-based Supervised
+Learning (SL) in discrete, differentiable networks of arbitrary depth calledbackpropagation (BP) was"
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,7,0.538534,Deep Learning in Neural Networks.pdf,4,"1 Introduction to Deep Learning (DL) in Neural Networks (NNs)
+Which modiﬁable components of a learning system are responsible for its success or failure? What
+changes to them improve performance? This has been called thefundamental credit assignment prob-
+lem (Minsky, 1963). There are general credit assignment methods for universal problem solvers that
+are time-optimal in various theoretical senses (Sec. 6.8). The present survey, however, will focus on
+the narrower, but now commercially important, subﬁeld of Deep Learning (DL) in Artiﬁcial Neural
+Networks (NNs).
+A standard neural network (NN) consists of many simple, connected processors called neurons,
+each producing a sequence of real-valued activations. Input neurons get activated through sensors per-
+ceiving the environment, other neurons get activated through weighted connections from previously
+active neurons (details in Sec. 2). Some neurons may inﬂuence the environment by triggering actions."
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,8,0.531785,Deep Learning in Neural Networks.pdf,5,"NNs, as well as general methods for direct and indirect search in the weight space of deep FNNs and
+RNNs, including successful policy gradient and evolutionary methods.
+2 Event-Oriented Notation for Activation Spreading in NNs
+Throughout this paper, let i,j,k,t,p,q,r denote positive integer variables assuming ranges implicit
+in the given contexts. Letn,m,T denote positive integer constants.
+An NN’s topology may change over time (e.g., Sec. 5.3, 5.6.3). At any given moment, it can
+be described as a ﬁnite subset of units (or nodes or neurons) N ={u1,u 2,..., } and a ﬁnite set
+H⊆N×N of directed edges or connections between nodes. FNNs are acyclic graphs, RNNs cyclic.
+The ﬁrst (input) layer is the set of input units, a subset ofN. In FNNs, thek-th layer (k> 1) is the set
+of all nodesu∈N such that there is an edge path of lengthk− 1 (but no longer path) between some
+input unit andu. There may be shortcut connections between distant layers. In sequence-processing,"
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,9,0.529311,Deep Learning in Neural Networks.pdf,76,"recurrent continually running networks. Neural Computation, 4(2):243–248.
+Schmidhuber, J. (1992b). Learning complex, extended sequences using the principle of history com-
+pression. Neural Computation, 4(2):234–242. (Based on TR FKI-148-91, TUM, 1991).
+Schmidhuber, J. (1992c). Learning factorial codes by predictability minimization. Neural Computa-
+tion, 4(6):863–879.
+Schmidhuber, J. (1993a). An introspective network that can learn to run its own weight change
+algorithm. In Proc. of the Intl. Conf. on Artiﬁcial Neural Networks, Brighton, pages 191–195. IEE.
+Schmidhuber, J. (1993b). Netzwerkarchitekturen, Zielfunktionen und Kettenregel. (Network archi-
+tectures, objective functions, and chain rule.) Habilitation Thesis, Inst. f. Inf., Tech. Univ. Munich.
+Schmidhuber, J. (1997). Discovering neural nets with low Kolmogorov complexity and high general-
+ization capability. Neural Networks, 10(5):857–873."
+Recursive character,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,10,0.524921,Deep Learning in Neural Networks.pdf,38,"of the 12th International Conference on Artiﬁcial Neural Networks (ICANN), Madrid, Spain, pages
+1319–1324.
+38"
+Recursive character,What is the capital of Japan?,Tokyo,False,1,0.10816,Deep Learning in Neural Networks.pdf,69,"Wiss. Z. Tech. Hochschule f¨ur Chemie, 13:382–384.
+Otsuka, M. (2010). Goal-Oriented Representation of the External World: A Free-Energy-Based Ap-
+proach. PhD thesis, Nara Institute of Science and Technology.
+69"
+Recursive character,What is the capital of Japan?,Tokyo,False,2,0.081788,Deep Learning in Neural Networks.pdf,48,"93(26):429–441.
+Gallant, S. I. (1988). Connectionist expert systems. Communications of the ACM, 31(2):152–169.
+Gauss, C. F. (1809). Theoria motus corporum coelestium in sectionibus conicis solem ambientium.
+Gauss, C. F. (1821). Theoria combinationis observationum erroribus minimis obnoxiae (Theory of
+the combination of observations least subject to error).
+48"
+Recursive character,What is the capital of Japan?,Tokyo,False,3,0.081574,Deep Learning in Neural Networks.pdf,18,"5.23).
+5.12 1994: Early Contest-Winning NNs
+Back in the 1990s, certain NNs already won certain controlled pattern recognition contests with secret
+test sets. Notably, an NN with internal delay lines won the Santa Fe time-series competition on chaotic
+intensity pulsations of an NH3 laser (Wan, 1994; Weigend and Gershenfeld, 1993). No very deep
+CAPs (Sec. 3) were needed though.
+18"
+Recursive character,What is the capital of Japan?,Tokyo,False,4,0.066906,Deep Learning in Neural Networks.pdf,34,"(Sec. 5.6.4). They will also implement Occam’s razor (Sec. 4.4, 5.6.3) as a by-product of energy min-
+34"
+Recursive character,What is the capital of Japan?,Tokyo,False,5,0.065482,Deep Learning in Neural Networks.pdf,12,"economies in RNNs with WTA units and local learning rules (Schmidhuber, 1989b), and other meth-
+ods (e.g., Ring, 1993, 1994; Plate, 1993; de Vries and Principe, 1991; Sun et al., 1993a; Bengio
+et al., 1994). However, these algorithms either worked for shallow CAPs only, could not generalize
+to unseen CAP depths, had problems with greatly varying time lags between relevant events, needed
+external ﬁne tuning of delay constants, or suffered from other problems. In fact, it turned out that
+certain simple but deep benchmark problems used to evaluate such methods are more quickly solved
+by randomly guessing RNN weights until a solution is found (Hochreiter and Schmidhuber, 1996).
+While the RNN methods above were designed for DL of temporal sequences, the Neural Heat
+Exchanger (Schmidhuber, 1990c) consists of two parallel deep FNNs with opposite ﬂow directions.
+12"
+Recursive character,What is the capital of Japan?,Tokyo,False,6,0.060161,Deep Learning in Neural Networks.pdf,65,"and transfer learning challenge: a deep learning approach. In JMLR W&CP: Proc. Unsupervised
+and Transfer Learning, volume 7.
+Meuleau, N., Peshkin, L., Kim, K. E., and Kaelbling, L. P. (1999). Learning ﬁnite state controllers for
+partially observable environments. In 15th International Conference of Uncertainty in AI , pages
+427–436.
+Miglino, O., Lund, H., and Nolﬁ, S. (1995). Evolving mobile robots in simulated and real environ-
+ments. Artiﬁcial Life, 2(4):417–434.
+65"
+Recursive character,What is the capital of Japan?,Tokyo,False,7,0.054317,Deep Learning in Neural Networks.pdf,19,"tween legal strings such as a10,000,000b10,000,000c10,000,000 and very similar but illegal strings such
+asa10,000,000b9,999,999c10,000,000. Compare also more recent RNN algorithms able to deal with long
+19"
+Recursive character,What is the capital of Japan?,Tokyo,False,8,0.053189,Deep Learning in Neural Networks.pdf,7,"a less redundant or more compact way can be fed into SL (Sec. 5.10, 5.15) or RL machines (Sec. 6.4),
+whose search spaces may thus become smaller (and whose CAPs shallower) than those necessary for
+dealing with the raw data. UL is closely connected to the topics of regularization and compression
+(Sec. 4.4, 5.6.3).
+7"
+Recursive character,What is the capital of Japan?,Tokyo,False,9,0.051138,Deep Learning in Neural Networks.pdf,29,"eral variant of this technique uses RNNs instead of FNNs to implement bothM andC (Schmidhuber,
+1990d, 1991c; Feldkamp and Puskorius, 1998). This may cause deep CAPs not only for C but also
+forM.
+M can also be used to optimize expected reward by planning future action sequences (Schmid-
+huber, 1990d). In fact, the winners of the 2004 RoboCup World Championship in the fast
+league (Egorova et al., 2004) trained NNs to predict the effects of steering signals on fast robots
+with 4 motors for 4 different wheels. During play, such NN models were used to achieve desirable
+subgoals, by optimizing action sequences through quickly planning ahead. The approach also was
+used to create self-healing robots able to compensate for faulty motors whose effects do not longer
+match the predictions of the NN models (Gloye et al., 2005; Schmidhuber, 2007).
+29"
+Recursive character,What is the capital of Japan?,Tokyo,False,10,0.04406,Deep Learning in Neural Networks.pdf,6,"Suppose a CAP has the form (...,k,t,...,q ), wherek andt (possiblyt =q) are the ﬁrst succes-
+sive elements with modiﬁablewv(k,t). Then the length of the sufﬁx list (t,...,q ) is called the CAP’s
+depth (which is 0 if there are no modiﬁable links at all). This depth limits how far backwards credit
+assignment can move down the causal chain to ﬁnd a modiﬁable weight.1
+Suppose an episode and its event sequence x1,...,x T satisfy a computable criterion used to
+decide whether a given problem has been solved (e.g., total error E below some threshold). Then
+the set of used weights is called a solution to the problem, and the depth of the deepest CAP within
+the sequence is called the solution depth . There may be other solutions (yielding different event
+sequences) with different depths. Given some ﬁxed NN topology, the smallest depth of any solution
+is called the problem depth.
+Sometimes we also speak of the depth of an architecture: SL FNNs with ﬁxed topology imply a"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,1,0.190323,Deep Learning in Neural Networks.pdf,17,"level of the hierarchy. Compare a similar observation for feedforward Deep Belief Networks (DBNs,
+2006, Sec. 5.15).
+The system was able to learn many previously unlearnable DL tasks. One ancient illustrative
+DL experiment (Schmidhuber, 1993b) required CAPs (Sec. 3) of depth 1200. The top level code of
+the initially unsupervised RNN stack, however, got so compact that (previously infeasible) sequence
+classiﬁcation through additional BP-based SL became possible. Essentially the system used UL to
+17"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,2,0.151516,Deep Learning in Neural Networks.pdf,34,"(Sec. 5.6.4). They will also implement Occam’s razor (Sec. 4.4, 5.6.3) as a by-product of energy min-
+34"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,3,0.149245,Deep Learning in Neural Networks.pdf,27,"unit activations such that they have zero output and slope on average (Raiko et al., 2012). Many ad-
+ditional, older tricks (Sec. 5.6.2, 5.6.3) should also be applicable to today’s deep NNs; compare (Orr
+27"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,4,0.146418,Deep Learning in Neural Networks.pdf,12,"economies in RNNs with WTA units and local learning rules (Schmidhuber, 1989b), and other meth-
+ods (e.g., Ring, 1993, 1994; Plate, 1993; de Vries and Principe, 1991; Sun et al., 1993a; Bengio
+et al., 1994). However, these algorithms either worked for shallow CAPs only, could not generalize
+to unseen CAP depths, had problems with greatly varying time lags between relevant events, needed
+external ﬁne tuning of delay constants, or suffered from other problems. In fact, it turned out that
+certain simple but deep benchmark problems used to evaluate such methods are more quickly solved
+by randomly guessing RNN weights until a solution is found (Hochreiter and Schmidhuber, 1996).
+While the RNN methods above were designed for DL of temporal sequences, the Neural Heat
+Exchanger (Schmidhuber, 1990c) consists of two parallel deep FNNs with opposite ﬂow directions.
+12"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,5,0.123135,Deep Learning in Neural Networks.pdf,6,"Suppose a CAP has the form (...,k,t,...,q ), wherek andt (possiblyt =q) are the ﬁrst succes-
+sive elements with modiﬁablewv(k,t). Then the length of the sufﬁx list (t,...,q ) is called the CAP’s
+depth (which is 0 if there are no modiﬁable links at all). This depth limits how far backwards credit
+assignment can move down the causal chain to ﬁnd a modiﬁable weight.1
+Suppose an episode and its event sequence x1,...,x T satisfy a computable criterion used to
+decide whether a given problem has been solved (e.g., total error E below some threshold). Then
+the set of used weights is called a solution to the problem, and the depth of the deepest CAP within
+the sequence is called the solution depth . There may be other solutions (yielding different event
+sequences) with different depths. Given some ﬁxed NN topology, the smallest depth of any solution
+is called the problem depth.
+Sometimes we also speak of the depth of an architecture: SL FNNs with ﬁxed topology imply a"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,6,0.120787,Deep Learning in Neural Networks.pdf,14,"mains approximately constant, that is, few bits of information are required to describe low-precision
+weights with high variance. Compare perturbation tolerance conditions (Minai and Williams, 1994;
+Murray and Edwards, 1993; Hanson, 1990; Neti et al., 1992; Matsuoka, 1992; Bishop, 1993; Ker-
+lirzin and Vallet, 1993; Carter et al., 1990). An MDL-based, Bayesian argument suggests that ﬂat
+minima correspond to “simple” NNs and low expected overﬁtting. Compare Sec. 5.6.4 and more
+recent developments mentioned in Sec. 5.24.
+5.6.4 Potential Beneﬁts of UL for SL (Compare Sec. 5.7, 5.10, 5.15)
+The notation of Sec. 2 introduced teacher-given labels dt. Many papers of the previous millennium,
+however, were about unsupervised learning (UL) without a teacher (e.g., Hebb, 1949; von der Mals-
+burg, 1973; Kohonen, 1972, 1982, 1988; Willshaw and von der Malsburg, 1976; Grossberg, 1976a,b;
+Watanabe, 1985; Pearlmutter and Hinton, 1986; Barrow, 1987; Field, 1987; Oja, 1989; Barlow et al.,"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,7,0.102186,Deep Learning in Neural Networks.pdf,7,"a less redundant or more compact way can be fed into SL (Sec. 5.10, 5.15) or RL machines (Sec. 6.4),
+whose search spaces may thus become smaller (and whose CAPs shallower) than those necessary for
+dealing with the raw data. UL is closely connected to the topics of regularization and compression
+(Sec. 4.4, 5.6.3).
+7"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,8,0.085227,Deep Learning in Neural Networks.pdf,63,"Lowe, D. (2004). Distinctive image features from scale-invariant key-points. Intl. Journal of Com-
+puter Vision, 60:91–110.
+Luciw, M., Kompella, V . R., Kazerounian, S., and Schmidhuber, J. (2013). An intrinsic value system
+for developing multiple invariant representations with incremental slowness learning. Frontiers in
+Neurorobotics, 7(9).
+Lusci, A., Pollastri, G., and Baldi, P. (2013). Deep architectures and deep learning in chemoinformat-
+ics: the prediction of aqueous solubility for drug-like molecules. Journal of Chemical Information
+and Modeling, 53(7):1563–1575.
+Maas, A. L., Hannun, A. Y ., and Ng, A. Y . (2013). Rectiﬁer nonlinearities improve neural network
+acoustic models. In International Conference on Machine Learning (ICML).
+Maass, W. (1996). Lower bounds for the computational power of networks of spiking neurons.Neural
+Computation, 8(1):1–40.
+Maass, W. (1997). Networks of spiking neurons: the third generation of neural network models.
+Neural Networks, 10(9):1659–1671."
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,9,0.079796,Deep Learning in Neural Networks.pdf,9,"trained by UL helped to solve previously unlearnable DL benchmarks requiring Credit Assignment
+Paths (CAPs, Sec. 3) of depth 1000 and more. Sec. 5.11 discusses a particularwinner-take-all (WTA)
+method called Max-Pooling (MP, 1992) widely used in today’s deep FNNs. Sec. 5.12 mentions a
+ﬁrst important contest won by SL NNs in 1994. Sec. 5.13 describes a purely supervised DL RNN
+(Long Short-Term Memory, LSTM, 1995) for problems of depth 1000 and more. Sec. 5.14 mentions
+an early contest of 2003 won by an ensemble of shallow FNNs, as well as good pattern recognition
+results with CNNs and deep FNNs and LSTM RNNs (2003). Sec. 5.15 is mostly about Deep Belief
+Networks (DBNs, 2006) and related stacks ofAutoencoders (AEs, Sec. 5.7), both pre-trained by UL to
+facilitate subsequent BP-based SL (compare Sec. 5.6.1, 5.10). Sec. 5.16 mentions the ﬁrst SL-based
+GPU-CNNs (2006), BP-trained MPCNNs (2007), and LSTM stacks (2007). Sec. 5.17–5.22 focus on"
+Recursive character,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,10,0.07965,Deep Learning in Neural Networks.pdf,19,"tween legal strings such as a10,000,000b10,000,000c10,000,000 and very similar but illegal strings such
+asa10,000,000b9,999,999c10,000,000. Compare also more recent RNN algorithms able to deal with long
+19"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,1,0.234163,Deep Learning in Neural Networks.pdf,23,"qualifying it was possible to incrementally gain information about the test set by probing it through
+repeated submissions. This is illustrated by better and better results obtained by various teams over
+time (Stallkamp et al., 2012) (the organisers eventually imposed a limit of 10 resubmissions). In the
+ﬁnal competition this was not possible.
+23"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,2,0.22676,Deep Learning in Neural Networks.pdf,23,"nition (Ciresan et al., 2011b, 2012b) in a controlled competition, namely, the IJCNN 2011 trafﬁc
+sign recognition contest in San Jose (CA) (Stallkamp et al., 2011, 2012). This is of interest for fully
+autonomous, self-driving cars in trafﬁc (e.g., Dickmanns et al., 1994). The GPU-MPCNN ensem-
+ble obtained 0.56% error rate and was twice better than human test subjects, three times better than
+the closest artiﬁcial NN competitor (Sermanet and LeCun, 2011), and six times better than the best
+non-neural method.
+A few months earlier, the qualifying round was won in a 1st stage online competition, albeit by
+a much smaller margin: 1.02% (Ciresan et al., 2011b) vs 1.03% for second place (Sermanet and
+LeCun, 2011). After the deadline, the organisers revealed that human performance on the test set
+was 1.19%. That is, the best methods already seemed human-competitive. However, during the
+qualifying it was possible to incrementally gain information about the test set by probing it through"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,3,0.224494,Deep Learning in Neural Networks.pdf,2,"5.8 1989: BP for Convolutional NNs (CNNs, Sec. 5.4) . . . . . . . . . . . . . . . . . . 16
+5.9 1991: Fundamental Deep Learning Problem of Gradient Descent . . . . . . . . . . . 16
+5.10 1991: UL-Based History Compression Through a Deep Stack of RNNs . . . . . . . 17
+5.11 1992: Max-Pooling (MP): Towards MPCNNs (Compare Sec. 5.16, 5.19) . . . . . . . 18
+5.12 1994: Early Contest-Winning NNs . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+5.13 1995: Supervised Recurrent Very Deep Learner (LSTM RNN) . . . . . . . . . . . . 19
+5.14 2003: More Contest-Winning/Record-Setting NNs; Successful Deep NNs . . . . . . 21
+5.15 2006/7: UL For Deep Belief Networks / AE Stacks Fine-Tuned by BP . . . . . . . . 21
+5.16 2006/7: Improved CNNs / GPU-CNNs / BP for MPCNNs / LSTM Stacks . . . . . . 22
+5.17 2009: First Ofﬁcial Competitions Won by RNNs, and with MPCNNs . . . . . . . . . 22
+5.18 2010: Plain Backprop ( + Distortions) on GPU Breaks MNIST Record . . . . . . . . 23"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,4,0.208631,Deep Learning in Neural Networks.pdf,4,"competitions (Sec. 5.17–5.23). Sec. 5 is arranged in a historical timeline format with subsections on
+important inspirations and technical contributions. Sec. 6 on deep RL discusses traditional Dynamic
+Programming (DP)-based RL combined with gradient-based search techniques for SL or UL in deep
+4"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,5,0.197965,Deep Learning in Neural Networks.pdf,18,"5.23).
+5.12 1994: Early Contest-Winning NNs
+Back in the 1990s, certain NNs already won certain controlled pattern recognition contests with secret
+test sets. Notably, an NN with internal delay lines won the Santa Fe time-series competition on chaotic
+intensity pulsations of an NH3 laser (Wan, 1994; Weigend and Gershenfeld, 1993). No very deep
+CAPs (Sec. 3) were needed though.
+18"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,6,0.195853,Deep Learning in Neural Networks.pdf,30,"Doya, 2000; Bertsekas, 2001; Brafman and Tennenholtz, 2002; Abounadi et al., 2002; Lagoudakis and
+Parr, 2003; Sutton et al., 2008; Maei and Sutton, 2010; van Hasselt, 2012). Most are formulated in
+a probabilistic framework, and evaluate pairs of input and output (action) events (instead of input
+events only). To facilitate certain mathematical derivations, some discount delayed rewards, but such
+distortions of the original RL problem are problematic.
+Perhaps the most well-known RL NN is the world-class RL backgammon player (Tesauro, 1994),
+which achieved the level of human world champions by playing against itself. Its nonlinear, rather
+shallow FNN maps a large but ﬁnite number of discrete board states to values. More recently, a
+rather deep GPU-CNN was used in a traditional RL framework to play several Atari 2600 computer
+games directly from 84x84 pixel 60 Hz video input (Mnih et al., 2013), using experience replay (Lin,"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,7,0.167992,Deep Learning in Neural Networks.pdf,2,"5.18 2010: Plain Backprop ( + Distortions) on GPU Breaks MNIST Record . . . . . . . . 23
+5.19 2011: MPCNNs on GPU Achieve Superhuman Vision Performance . . . . . . . . . 23
+5.20 2011: Hessian-Free Optimization for RNNs . . . . . . . . . . . . . . . . . . . . . . 24
+5.21 2012: First Contests Won on ImageNet, Object Detection, Segmentation . . . . . . . 24
+5.22 2013-: More Contests and Benchmark Records . . . . . . . . . . . . . . . . . . . . 25
+5.23 Currently Successful Techniques: LSTM RNNs and GPU-MPCNNs . . . . . . . . . 26
+5.24 Recent Tricks for Improving SL Deep NNs (Compare Sec. 5.6.2, 5.6.3) . . . . . . . 27
+5.25 Consequences for Neuroscience . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+5.26 DL with Spiking Neurons? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+2"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,8,0.163459,Deep Learning in Neural Networks.pdf,9,"trained by UL helped to solve previously unlearnable DL benchmarks requiring Credit Assignment
+Paths (CAPs, Sec. 3) of depth 1000 and more. Sec. 5.11 discusses a particularwinner-take-all (WTA)
+method called Max-Pooling (MP, 1992) widely used in today’s deep FNNs. Sec. 5.12 mentions a
+ﬁrst important contest won by SL NNs in 1994. Sec. 5.13 describes a purely supervised DL RNN
+(Long Short-Term Memory, LSTM, 1995) for problems of depth 1000 and more. Sec. 5.14 mentions
+an early contest of 2003 won by an ensemble of shallow FNNs, as well as good pattern recognition
+results with CNNs and deep FNNs and LSTM RNNs (2003). Sec. 5.15 is mostly about Deep Belief
+Networks (DBNs, 2006) and related stacks ofAutoencoders (AEs, Sec. 5.7), both pre-trained by UL to
+facilitate subsequent BP-based SL (compare Sec. 5.6.1, 5.10). Sec. 5.16 mentions the ﬁrst SL-based
+GPU-CNNs (2006), BP-trained MPCNNs (2007), and LSTM stacks (2007). Sec. 5.17–5.22 focus on"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,9,0.162954,Deep Learning in Neural Networks.pdf,24,"This illustrates a general problem with benchmarks whose test sets are public, or at least can be
+probed to some extent: competing teams tend to overﬁt on the test set even when it cannot be directly
+used for training, only for evaluation.
+In 1997 many thought it a big deal that human chess world champion Kasparov was beaten by
+an IBM computer. But back then computers could not at all compete with little kids in visual pat-
+tern recognition, which seems much harder than chess from a computational perspective. Of course,
+the trafﬁc sign domain is highly restricted, and kids are still much better general pattern recognis-
+ers. Nevertheless, by 2011, deep NNs could already learn to rival them in important limited visual
+domains.
+An ensemble of GPU-MPCNNs was also the ﬁrst method to achieve human-competitive perfor-
+mance (around 0.2%) on MNIST (Ciresan et al., 2012c). This represented a dramatic improvement,"
+Recursive character,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,10,0.162647,Deep Learning in Neural Networks.pdf,50,"Gloye, A., Wiesel, F., Tenchio, O., and Simon, M. (2005). Reinforcing the driving quality of soccer
+playing robots by anticipation. IT - Information Technology, 47(5).
+G¨odel, K. (1931). ¨Uber formal unentscheidbare S ¨atze der Principia Mathematica und verwandter
+Systeme I. Monatshefte f¨ur Mathematik und Physik, 38:173–198.
+Goldberg, D. E. (1989).Genetic Algorithms in Search, Optimization and Machine Learning. Addison-
+Wesley, Reading, MA.
+Goldfarb, D. (1970). A family of variable-metric methods derived by variational means.Mathematics
+of computation, 24(109):23–26.
+Golub, G., Heath, H., and Wahba, G. (1979). Generalized cross-validation as a method for choosing
+a good ridge parameter. Technometrics, 21:215–224.
+Gomez, F. J. (2003). Robust Nonlinear Control through Neuroevolution. PhD thesis, Department of
+Computer Sciences, University of Texas at Austin.
+Gomez, F. J. and Miikkulainen, R. (2003). Active guidance for a ﬁnless rocket using neuroevolution.
+In Proc. GECCO 2003, Chicago."
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,1,0.380509,Deep Learning in Neural Networks.pdf,49,"InAISTATS, volume 15,
+pages 315–323. 49"
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,2,0.357647,Deep Learning in Neural Networks.pdf,1,"LATEX source: http://www.idsia.ch/˜juergen/DeepLearning8Oct2014.tex
+Complete BIBTEX ﬁle (888 kB): http://www.idsia.ch/˜juergen/deep.bib
+Preface
+This is the preprint of an invited Deep Learning (DL) overview. One of its goals is to assign credit
+to those who contributed to the present state of the art. I acknowledge the limitations of attempting
+to achieve this goal. The DL research community itself may be viewed as a continually evolving,
+deep network of scientists who have inﬂuenced each other in complex ways. Starting from recent DL
+results, I tried to trace back the origins of relevant ideas through the past half century and beyond,
+sometimes using “local search” to follow citations of citations backwards in time. Since not all DL
+publications properly acknowledge earlier relevant work, additional global search strategies were em-
+ployed, aided by consulting numerous neural network experts. As a result, the present preprint mostly
+consists of references."
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,3,0.344177,Deep Learning in Neural Networks.pdf,1,"Nevertheless, through an expert selection bias I may have missed important
+work. A related bias was surely introduced by my special familiarity with the work of my own DL
+research group in the past quarter-century. For these reasons, this work should be viewed as merely a
+snapshot of an ongoing credit assignment process. To help improve it, please do not hesitate to send
+corrections and suggestions to juergen@idsia.ch. 1
+arXiv:1404.7828v4  [cs.NE]  8 Oct 2014"
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,4,0.329078,Deep Learning in Neural Networks.pdf,14,"Many papers of the previous millennium,
+however, were about unsupervised learning (UL) without a teacher (e.g., Hebb, 1949; von der Mals-
+burg, 1973; Kohonen, 1972, 1982, 1988; Willshaw and von der Malsburg, 1976; Grossberg, 1976a,b;
+Watanabe, 1985; Pearlmutter and Hinton, 1986; Barrow, 1987; Field, 1987; Oja, 1989; Barlow et al.,
+1989; Baldi and Hornik, 1989; Sanger, 1989; Ritter and Kohonen, 1989; Rubner and Schulten, 1990;
+F¨oldi´ak, 1990; Martinetz et al., 1990; Kosko, 1990; Mozer, 1991; Palm, 1992; Atick et al., 1992;
+Miller, 1994; Saund, 1994; F ¨oldi´ak and Young, 1995; Deco and Parra, 1997); see also post-2000
+work (e.g., Carreira-Perpinan, 2001; Wiskott and Sejnowski, 2002; Franzius et al., 2007; Waydo and
+Koch, 2008)."
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,5,0.305579,Deep Learning in Neural Networks.pdf,84,"International Journal of Computer Vision, 25(2):109–143. 84"
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,6,0.28297,Deep Learning in Neural Networks.pdf,77,"MIT Press, Cambridge, MA. 77"
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,7,0.279037,Deep Learning in Neural Networks.pdf,24,"Such
+biomedical applications may turn out to be among the most important applications of DL. The world
+24"
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,8,0.273965,Deep Learning in Neural Networks.pdf,15,"1993; Redlich, 1993; Zemel, 1993; Zemel and Hinton, 1994; Field, 1994; Hinton et al., 1995; Dayan
+and Zemel, 1995; Amari et al., 1996; Deco and Parra, 1997). Many do this to uncover and disentangle hidden underlying sources of signals (e.g., Jutten and
+Herault, 1991; Schuster, 1992; Andrade et al., 1993; Molgedey and Schuster, 1994; Comon, 1994;
+Cardoso, 1994; Bell and Sejnowski, 1995; Karhunen and Joutsensalo, 1995; Belouchrani et al., 1997;
+Hyv¨arinen et al., 2001; Szab´o et al., 2006; Shan et al., 2007; Shan and Cottrell, 2014)."
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,9,0.266449,Deep Learning in Neural Networks.pdf,73,"Connection Science, 11(1):5–40. 73"
+Sentence-based,What is the title of the research paper?,Deep Learning in Neural Networks: An Overview,True,10,0.259422,Deep Learning in Neural Networks.pdf,52,"Hastie, T., Tibshirani, R., and Friedman, J. (2009). The elements of statistical learning . Springer
+Series in Statistics. 52"
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,1,0.370742,Deep Learning in Neural Networks.pdf,49,"InAISTATS, volume 15,
+pages 315–323. 49"
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,2,0.370541,Deep Learning in Neural Networks.pdf,1,"LATEX source: http://www.idsia.ch/˜juergen/DeepLearning8Oct2014.tex
+Complete BIBTEX ﬁle (888 kB): http://www.idsia.ch/˜juergen/deep.bib
+Preface
+This is the preprint of an invited Deep Learning (DL) overview. One of its goals is to assign credit
+to those who contributed to the present state of the art. I acknowledge the limitations of attempting
+to achieve this goal. The DL research community itself may be viewed as a continually evolving,
+deep network of scientists who have inﬂuenced each other in complex ways. Starting from recent DL
+results, I tried to trace back the origins of relevant ideas through the past half century and beyond,
+sometimes using “local search” to follow citations of citations backwards in time. Since not all DL
+publications properly acknowledge earlier relevant work, additional global search strategies were em-
+ployed, aided by consulting numerous neural network experts. As a result, the present preprint mostly
+consists of references."
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,3,0.335581,Deep Learning in Neural Networks.pdf,15,"1993; Redlich, 1993; Zemel, 1993; Zemel and Hinton, 1994; Field, 1994; Hinton et al., 1995; Dayan
+and Zemel, 1995; Amari et al., 1996; Deco and Parra, 1997). Many do this to uncover and disentangle hidden underlying sources of signals (e.g., Jutten and
+Herault, 1991; Schuster, 1992; Andrade et al., 1993; Molgedey and Schuster, 1994; Comon, 1994;
+Cardoso, 1994; Bell and Sejnowski, 1995; Karhunen and Joutsensalo, 1995; Belouchrani et al., 1997;
+Hyv¨arinen et al., 2001; Szab´o et al., 2006; Shan et al., 2007; Shan and Cottrell, 2014)."
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,4,0.3287,Deep Learning in Neural Networks.pdf,14,"Many papers of the previous millennium,
+however, were about unsupervised learning (UL) without a teacher (e.g., Hebb, 1949; von der Mals-
+burg, 1973; Kohonen, 1972, 1982, 1988; Willshaw and von der Malsburg, 1976; Grossberg, 1976a,b;
+Watanabe, 1985; Pearlmutter and Hinton, 1986; Barrow, 1987; Field, 1987; Oja, 1989; Barlow et al.,
+1989; Baldi and Hornik, 1989; Sanger, 1989; Ritter and Kohonen, 1989; Rubner and Schulten, 1990;
+F¨oldi´ak, 1990; Martinetz et al., 1990; Kosko, 1990; Mozer, 1991; Palm, 1992; Atick et al., 1992;
+Miller, 1994; Saund, 1994; F ¨oldi´ak and Young, 1995; Deco and Parra, 1997); see also post-2000
+work (e.g., Carreira-Perpinan, 2001; Wiskott and Sejnowski, 2002; Franzius et al., 2007; Waydo and
+Koch, 2008)."
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,5,0.322323,Deep Learning in Neural Networks.pdf,84,"International Journal of Computer Vision, 25(2):109–143. 84"
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,6,0.303563,Deep Learning in Neural Networks.pdf,1,"Nevertheless, through an expert selection bias I may have missed important
+work. A related bias was surely introduced by my special familiarity with the work of my own DL
+research group in the past quarter-century. For these reasons, this work should be viewed as merely a
+snapshot of an ongoing credit assignment process. To help improve it, please do not hesitate to send
+corrections and suggestions to juergen@idsia.ch. 1
+arXiv:1404.7828v4  [cs.NE]  8 Oct 2014"
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,7,0.294966,Deep Learning in Neural Networks.pdf,77,"MIT Press, Cambridge, MA. 77"
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,8,0.285634,Deep Learning in Neural Networks.pdf,73,"Connection Science, 11(1):5–40. 73"
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,9,0.233902,Deep Learning in Neural Networks.pdf,84,"von der Malsburg, C. (1973). Self-organization of orientation sensitive cells in the striate cortex. Kybernetik, 14(2):85–100. Waldinger, R. J. and Lee, R. C. T. (1969). PROW: a step toward automatic program writing. In
+Walker, D. E. and Norton, L. M., editors, Proceedings of the 1st International Joint Conference on
+Artiﬁcial Intelligence (IJCAI), pages 241–252. Morgan Kaufmann. Wallace, C. S. and Boulton, D. M. (1968). An information theoretic measure for classiﬁcation. Com-
+puter Journal, 11(2):185–194. Wan, E. A. (1994). Time series prediction by using a connectionist network with internal delay lines. In Weigend, A. S. and Gershenfeld, N. A., editors, Time series prediction: Forecasting the future
+and understanding the past, pages 265–295. Addison-Wesley. Wang, C., Venkatesh, S. S., and Judd, J. S. (1994). Optimal stopping and effective machine complexity
+in learning. In Advances in Neural Information Processing Systems (NIPS’6) , pages 303–310. Morgan Kaufmann. Wang, S."
+Sentence-based,Who is the author of the research paper?,Jürgen Schmidhuber,True,10,0.227657,Deep Learning in Neural Networks.pdf,10,"For downsampling purposes he used Spatial Averaging (Fukushima,
+1980, 2011) instead of Max-Pooling (MP, Sec. 5.11), currently a particularly convenient and popular
+WTA mechanism. Today’s DL combinations of CNNs and MP and BP also proﬁt a lot from later
+work (e.g., Sec. 5.8, 5.16, 5.16, 5.19). 10"
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,1,0.344139,Deep Learning in Neural Networks.pdf,49,"InAISTATS, volume 15,
+pages 315–323. 49"
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,2,0.302969,Deep Learning in Neural Networks.pdf,84,"International Journal of Computer Vision, 25(2):109–143. 84"
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,3,0.231313,Deep Learning in Neural Networks.pdf,14,"Many papers of the previous millennium,
+however, were about unsupervised learning (UL) without a teacher (e.g., Hebb, 1949; von der Mals-
+burg, 1973; Kohonen, 1972, 1982, 1988; Willshaw and von der Malsburg, 1976; Grossberg, 1976a,b;
+Watanabe, 1985; Pearlmutter and Hinton, 1986; Barrow, 1987; Field, 1987; Oja, 1989; Barlow et al.,
+1989; Baldi and Hornik, 1989; Sanger, 1989; Ritter and Kohonen, 1989; Rubner and Schulten, 1990;
+F¨oldi´ak, 1990; Martinetz et al., 1990; Kosko, 1990; Mozer, 1991; Palm, 1992; Atick et al., 1992;
+Miller, 1994; Saund, 1994; F ¨oldi´ak and Young, 1995; Deco and Parra, 1997); see also post-2000
+work (e.g., Carreira-Perpinan, 2001; Wiskott and Sejnowski, 2002; Franzius et al., 2007; Waydo and
+Koch, 2008)."
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,4,0.228565,Deep Learning in Neural Networks.pdf,15,"1993; Redlich, 1993; Zemel, 1993; Zemel and Hinton, 1994; Field, 1994; Hinton et al., 1995; Dayan
+and Zemel, 1995; Amari et al., 1996; Deco and Parra, 1997). Many do this to uncover and disentangle hidden underlying sources of signals (e.g., Jutten and
+Herault, 1991; Schuster, 1992; Andrade et al., 1993; Molgedey and Schuster, 1994; Comon, 1994;
+Cardoso, 1994; Bell and Sejnowski, 1995; Karhunen and Joutsensalo, 1995; Belouchrani et al., 1997;
+Hyv¨arinen et al., 2001; Szab´o et al., 2006; Shan et al., 2007; Shan and Cottrell, 2014)."
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,5,0.225437,Deep Learning in Neural Networks.pdf,77,"MIT Press, Cambridge, MA. 77"
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,6,0.20895,Deep Learning in Neural Networks.pdf,2,"16
+5.10 1991: UL-Based History Compression Through a Deep Stack of RNNs . . . . . . . 17
+5.11 1992: Max-Pooling (MP): Towards MPCNNs (Compare Sec. 5.16, 5.19) . . . . . . . 18
+5.12 1994: Early Contest-Winning NNs . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+5.13 1995: Supervised Recurrent Very Deep Learner (LSTM RNN) . . . . . . . . . . . . 19
+5.14 2003: More Contest-Winning/Record-Setting NNs; Successful Deep NNs . . . . . . 21
+5.15 2006/7: UL For Deep Belief Networks / AE Stacks Fine-Tuned by BP . . . . . . . . 21
+5.16 2006/7: Improved CNNs / GPU-CNNs / BP for MPCNNs / LSTM Stacks . . . . . . 22
+5.17 2009: First Ofﬁcial Competitions Won by RNNs, and with MPCNNs . . . . . . . . . 22
+5.18 2010: Plain Backprop ( + Distortions) on GPU Breaks MNIST Record . . . . . . . . 23
+5.19 2011: MPCNNs on GPU Achieve Superhuman Vision Performance . . . . . . . . . 23
+5.20 2011: Hessian-Free Optimization for RNNs . . . . . . . . . . . . . . . . . . . . . ."
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,7,0.195168,Deep Learning in Neural Networks.pdf,9,"UL in the same section: often gradient-based methods, such as BP (Sec. 5.5.1), are used to optimize
+objective functions of both UL and SL, and the boundary between SL and UL may blur, for example,
+when it comes to time series prediction and sequence classiﬁcation, e.g., Sec. 5.10, 5.12. A historical timeline format will help to arrange subsections on important inspirations and techni-
+cal contributions (although such a subsection may span a time interval of many years). Sec. 5.1 brieﬂy
+mentions early, shallow NN models since the 1940s (and 1800s), Sec. 5.2 additional early neurobio-
+logical inspiration relevant for modern Deep Learning (DL). Sec. 5.3 is about GMDH networks (since
+1965), to my knowledge the ﬁrst (feedforward) DL systems. Sec. 5.4 is about the relatively deep
+Neocognitron NN (1979) which is very similar to certain modern deep FNN architectures, as it com-
+bines convolutional NNs (CNNs), weight pattern replication, and subsampling mechanisms. Sec."
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,8,0.192309,Deep Learning in Neural Networks.pdf,84,"von der Malsburg, C. (1973). Self-organization of orientation sensitive cells in the striate cortex. Kybernetik, 14(2):85–100. Waldinger, R. J. and Lee, R. C. T. (1969). PROW: a step toward automatic program writing. In
+Walker, D. E. and Norton, L. M., editors, Proceedings of the 1st International Joint Conference on
+Artiﬁcial Intelligence (IJCAI), pages 241–252. Morgan Kaufmann. Wallace, C. S. and Boulton, D. M. (1968). An information theoretic measure for classiﬁcation. Com-
+puter Journal, 11(2):185–194. Wan, E. A. (1994). Time series prediction by using a connectionist network with internal delay lines. In Weigend, A. S. and Gershenfeld, N. A., editors, Time series prediction: Forecasting the future
+and understanding the past, pages 265–295. Addison-Wesley. Wang, C., Venkatesh, S. S., and Judd, J. S. (1994). Optimal stopping and effective machine complexity
+in learning. In Advances in Neural Information Processing Systems (NIPS’6) , pages 303–310. Morgan Kaufmann. Wang, S."
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,9,0.192112,Deep Learning in Neural Networks.pdf,55,"In Frontiers in Handwriting Recognition (ICFHR), 2012 Interna-
+tional Conference on, pages 302–307. IEEE. 55"
+Sentence-based,What date is listed on the paper's title page?,8 October 2014,True,10,0.191053,Deep Learning in Neural Networks.pdf,40,"Bishop, C. M. (1993). Curvature-driven smoothing: A learning algorithm for feed-forward networks. IEEE Transactions on Neural Networks, 4(5):882–884. Bishop, C. M. (2006). Pattern Recognition and Machine Learning. Springer. Blair, A. D. and Pollack, J. B. (1997). Analysis of dynamical recognizers. Neural Computation,
+9(5):1127–1142. Blondel, V . D. and Tsitsiklis, J. N. (2000). A survey of computational complexity results in systems
+and control. Automatica, 36(9):1249–1274. Bluche, T., Louradour, J., Knibbe, M., Moysset, B., Benzeghiba, F., and Kermorvant, C. (2014). The A2iA Arabic Handwritten Text Recognition System at the OpenHaRT2013 Evaluation. In
+International Workshop on Document Analysis Systems. Blum, A. L. and Rivest, R. L. (1992). Training a 3-node neural network is np-complete. Neural
+Networks, 5(1):117–127. Blumer, A., Ehrenfeucht, A., Haussler, D., and Warmuth, M. K. (1987). Occam’s razor. Information
+Processing Letters, 24:377–380. Bobrowski, L. (1978)."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,1,0.598904,Deep Learning in Neural Networks.pdf,4,"1 Introduction to Deep Learning (DL) in Neural Networks (NNs)
+Which modiﬁable components of a learning system are responsible for its success or failure? What
+changes to them improve performance? This has been called thefundamental credit assignment prob-
+lem (Minsky, 1963). There are general credit assignment methods for universal problem solvers that
+are time-optimal in various theoretical senses (Sec. 6.8). The present survey, however, will focus on
+the narrower, but now commercially important, subﬁeld of Deep Learning (DL) in Artiﬁcial Neural
+Networks (NNs). A standard neural network (NN) consists of many simple, connected processors called neurons,
+each producing a sequence of real-valued activations. Input neurons get activated through sensors per-
+ceiving the environment, other neurons get activated through weighted connections from previously
+active neurons (details in Sec. 2). Some neurons may inﬂuence the environment by triggering actions."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,2,0.557174,Deep Learning in Neural Networks.pdf,4,"BP-based training of deep
+NNs with many layers, however, had been found to be difﬁcult in practice by the late 1980s (Sec. 5.6),
+and had become an explicit research subject by the early 1990s (Sec. 5.9). DL became practically fea-
+sible to some extent through the help ofUnsupervised Learning (UL), e.g., Sec. 5.10 (1991), Sec. 5.15
+(2006). The 1990s and 2000s also saw many improvements of purely supervised DL (Sec. 5). In the
+new millennium, deep NNs have ﬁnally attracted wide-spread attention, mainly by outperforming al-
+ternative machine learning methods such as kernel machines (Vapnik, 1995; Sch ¨olkopf et al., 1998)
+in numerous important applications. In fact, since 2009, supervised deep NNs have won many ofﬁcial
+international pattern recognition competitions (e.g., Sec. 5.17, 5.19, 5.21, 5.22), achieving the ﬁrst
+superhuman visual pattern recognition results in limited domains (Sec. 5.19, 2011)."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,3,0.553418,Deep Learning in Neural Networks.pdf,16,"5.19),
+has become an essential ingredient of many modern, competition-winning, feedforward, visual Deep
+Learners (Sec. 5.19–5.23). This work also introduced the MNIST data set of handwritten digits (Le-
+Cun et al., 1989), which over time has become perhaps the most famous benchmark of Machine
+Learning. CNNs helped to achieve good performance on MNIST (LeCun et al., 1990a) (CAP depth
+5) and on ﬁngerprint recognition (Baldi and Chauvin, 1993); similar CNNs were used commercially
+in the 1990s. 5.9 1991: Fundamental Deep Learning Problem of Gradient Descent
+A diploma thesis (Hochreiter, 1991) represented a milestone of explicit DL research. As mentioned
+in Sec. 5.6, by the late 1980s, experiments had indicated that traditional deep feedforward or re-
+current networks are hard to train by backpropagation (BP) (Sec. 5.5). Hochreiter’s work formally
+identiﬁed a major reason: Typical deep NNs suffer from the now famous problem of vanishing or
+exploding gradients."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,4,0.54896,Deep Learning in Neural Networks.pdf,24,"5.21 2012: First Contests Won on ImageNet, Object Detection, Segmentation
+In 2012, an ensemble of GPU-MPCNNs (Sec. 5.19) achieved best results on the ImageNet classiﬁca-
+tion benchmark (Krizhevsky et al., 2012), which is popular in the computer vision community. Here
+relatively large image sizes of 256x256 pixels were necessary, as opposed to only 48x48 pixels for
+the 2011 trafﬁc sign competition (Sec. 5.19). See further improvements in Sec. 5.22. Also in 2012, the biggest NN so far ( 109 free parameters) was trained in unsupervised mode
+(Sec. 5.7, 5.15) on unlabeled data (Le et al., 2012), then applied to ImageNet. The codes across its top
+layer were used to train a simple supervised classiﬁer, which achieved best results so far on 20,000
+classes. Instead of relying on efﬁcient GPU programming, this was done by brute force on 1,000
+standard machines with 16,000 cores. So by 2011/2012, excellent results had been achieved by Deep Learners in imagerecognition and
+classiﬁcation (Sec."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,5,0.545482,Deep Learning in Neural Networks.pdf,26,"Other successful CNN appli-
+cations include scene parsing (Farabet et al., 2013), object detection (Szegedy et al., 2013), shadow
+detection (Khan et al., 2014), video classiﬁcation (Karpathy et al., 2014), and Alzheimers disease
+neuroimaging (Li et al., 2014). Additional contests are mentioned in the web pages of the Swiss AI Lab IDSIA, the University of
+Toronto, NY University, and the University of Montreal. 5.23 Currently Successful Techniques: LSTM RNNs and GPU-MPCNNs
+Most competition-winning or benchmark record-setting Deep Learners actually use one of twosuper-
+vised techniques: (a) recurrent LSTM (1997) trained by CTC (2006) (Sec. 5.13, 5.17, 5.21, 5.22), or
+(b) feedforward GPU-MPCNNs (2011, Sec. 5.19, 5.21, 5.22) based on CNNs (1979, Sec. 5.4) with
+MP (1992, Sec. 5.11) trained through BP (1989–2007, Sec. 5.8, 5.16)."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,6,0.543679,Deep Learning in Neural Networks.pdf,9,"5.11 discusses a particularwinner-take-all (WTA)
+method called Max-Pooling (MP, 1992) widely used in today’s deep FNNs. Sec. 5.12 mentions a
+ﬁrst important contest won by SL NNs in 1994. Sec. 5.13 describes a purely supervised DL RNN
+(Long Short-Term Memory, LSTM, 1995) for problems of depth 1000 and more. Sec. 5.14 mentions
+an early contest of 2003 won by an ensemble of shallow FNNs, as well as good pattern recognition
+results with CNNs and deep FNNs and LSTM RNNs (2003). Sec. 5.15 is mostly about Deep Belief
+Networks (DBNs, 2006) and related stacks ofAutoencoders (AEs, Sec. 5.7), both pre-trained by UL to
+facilitate subsequent BP-based SL (compare Sec. 5.6.1, 5.10). Sec. 5.16 mentions the ﬁrst SL-based
+GPU-CNNs (2006), BP-trained MPCNNs (2007), and LSTM stacks (2007). Sec. 5.17–5.22 focus on
+ofﬁcial competitions with secret test sets won by (mostly purely supervised) deep NNs since 2009,
+in sequence recognition, image classiﬁcation, image segmentation, and object detection."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,7,0.543453,Deep Learning in Neural Networks.pdf,24,"5.14, 5.16, 5.18). Given all the prior work on (MP)CNNs (Sec. 5.4, 5.8, 5.11, 5.16) and GPU-CNNs (Sec. 5.16),
+GPU-MPCNNs are not a breakthrough in the scientiﬁc sense. But they are a commercially relevant
+breakthrough in efﬁcient coding that has made a difference in several contests since 2011. Today, most
+feedforward competition-winning deep NNs are (ensembles of) GPU-MPCNNs (Sec. 5.21–5.23). 5.20 2011: Hessian-Free Optimization for RNNs
+Also in 2011 it was shown (Martens and Sutskever, 2011) that Hessian-free optimization (e.g., Møller,
+1993; Pearlmutter, 1994; Schraudolph, 2002) (Sec. 5.6.2) can alleviate theFundamental Deep Learn-
+ing Problem (Sec. 5.9) in RNNs, outperforming standard gradient-based LSTM RNNs (Sec. 5.13) on
+several tasks. Compare other RNN algorithms (Jaeger, 2004; Schmidhuber et al., 2007; Pascanu et al.,
+2013b; Koutn´ık et al., 2014) that also at least sometimes yield better results than steepest descent for
+LSTM RNNs."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,8,0.520779,Deep Learning in Neural Networks.pdf,24,"This illustrates a general problem with benchmarks whose test sets are public, or at least can be
+probed to some extent: competing teams tend to overﬁt on the test set even when it cannot be directly
+used for training, only for evaluation. In 1997 many thought it a big deal that human chess world champion Kasparov was beaten by
+an IBM computer. But back then computers could not at all compete with little kids in visual pat-
+tern recognition, which seems much harder than chess from a computational perspective. Of course,
+the trafﬁc sign domain is highly restricted, and kids are still much better general pattern recognis-
+ers. Nevertheless, by 2011, deep NNs could already learn to rival them in important limited visual
+domains. An ensemble of GPU-MPCNNs was also the ﬁrst method to achieve human-competitive perfor-
+mance (around 0.2%) on MNIST (Ciresan et al., 2012c). This represented a dramatic improvement,
+since by then the MNIST record had hovered around 0.4% for almost a decade (Sec."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,9,0.517257,Deep Learning in Neural Networks.pdf,10,"(Ikeda et al., 1976; Farlow, 1984; Madala and Ivakhnenko, 1994; Ivakhnenko, 1995; Kondo,
+1998; Kord´ık et al., 2003; Witczak et al., 2006; Kondo and Ueno, 2008). 5.4 1979: Convolution + Weight Replication + Subsampling (Neocognitron)
+Apart from deep GMDH networks (Sec. 5.3), the Neocognitron (Fukushima, 1979, 1980, 2013a)
+was perhaps the ﬁrst artiﬁcial NN that deserved the attribute deep, and the ﬁrst to incorporate the
+neurophysiological insights of Sec. 5.2. It introduced convolutional NNs (today often called CNNs or
+convnets), where the (typically rectangular) receptive ﬁeld of a convolutional unit with given weight
+vector (a ﬁlter) is shifted step by step across a 2-dimensional array of input values, such as the pixels
+of an image (usually there are several such ﬁlters). The resulting 2D array of subsequent activation
+events of this unit can then provide inputs to higher-level units, and so on. Due to massive weight
+replication (Sec. 2), relatively few parameters (Sec."
+Sentence-based,"According to the abstract, what fields have deep neural networks won contests in?",Pattern recognition and machine learning,True,10,0.511465,Deep Learning in Neural Networks.pdf,7,"to a precise answer, let me just deﬁne for the purposes of this overview: problems of depth > 10
+require Very Deep Learning. The difﬁculty of a problem may have little to do with its depth. Some NNs can quickly learn
+to solve certain deep problems, e.g., through random weight guessing (Sec. 5.9) or other types of
+direct search (Sec. 6.6) or indirect search (Sec. 6.7) in weight space, or through training an NN ﬁrst
+on shallow problems whose solutions may then generalize to deep problems, or through collapsing
+sequences of (non)linear operations into a single (non)linear operation (but see an analysis of non-
+trivial aspects of deep linear networks, Baldi and Hornik, 1994, Section B). In general, however,
+ﬁnding an NN that precisely models a given training set is an NP-complete problem (Judd, 1990;
+Blum and Rivest, 1992), also in the case of deep NNs (S ´ıma, 1994; de Souto et al., 1999; Windisch,
+2005); compare a survey of negative results (S´ıma, 2002, Section 1)."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,1,0.600317,Deep Learning in Neural Networks.pdf,55,"Honavar, V . and Uhr, L. M. (1988). A network of neuron-like units that learns to perceive by gen-
+eration as well as reweighting of its links. In Touretzky, D., Hinton, G. E., and Sejnowski, T.,
+editors, Proc. of the 1988 Connectionist Models Summer School, pages 472–484, San Mateo. Mor-
+gan Kaufman. Hopﬁeld, J. J. (1982). Neural networks and physical systems with emergent collective computational
+abilities. Proc. of the National Academy of Sciences, 79:2554–2558. Hornik, K., Stinchcombe, M., and White, H. (1989). Multilayer feedforward networks are universal
+approximators. Neural Networks, 2(5):359–366. Hubel, D. H. and Wiesel, T. (1962). Receptive ﬁelds, binocular interaction, and functional architecture
+in the cat’s visual cortex. Journal of Physiology (London), 160:106–154. Hubel, D. H. and Wiesel, T. N. (1968). Receptive ﬁelds and functional architecture of monkey striate
+cortex. The Journal of Physiology, 195(1):215–243. Huffman, D. A. (1952)."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,2,0.562415,Deep Learning in Neural Networks.pdf,11,"However, they backpropagated
+derivative information through standard Jacobian matrix calculations from one “layer” to the previous
+one, without explicitly addressing either direct links across several layers or potential additional efﬁ-
+ciency gains due to network sparsity (but perhaps such enhancements seemed obvious to the authors). Given all the prior work on learning in multilayer NN-like systems (see also Sec. 5.3 on deep non-
+linear nets since 1965), it seems surprising in hindsight that a book (Minsky and Papert, 1969) on the
+limitations of simple linear perceptrons with a single layer (Sec. 5.1) discouraged some researchers
+from further studying NNs. Explicit, efﬁcient error backpropagation (BP) in arbitrary, discrete, possibly sparsely connected,
+NN-like networks apparently was ﬁrst described in a 1970 master’s thesis (Linnainmaa, 1970, 1976),
+albeit without reference to NNs."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,3,0.558492,Deep Learning in Neural Networks.pdf,10,"5.2 Around 1960: Visual Cortex Provides Inspiration for DL (Sec. 5.4, 5.11)
+Simple cells and complex cells were found in the cat’s visual cortex (e.g., Hubel and Wiesel, 1962;
+Wiesel and Hubel, 1959). These cells ﬁre in response to certain properties of visual sensory inputs,
+such as the orientation of edges. Complex cells exhibit more spatial invariance than simple cells. This
+inspired later deep NN architectures (Sec. 5.4, 5.11) used in certain modern award-winning Deep
+Learners (Sec. 5.19–5.22). 5.3 1965: Deep Networks Based on the Group Method of Data Handling
+Networks trained by the Group Method of Data Handling (GMDH) (Ivakhnenko and Lapa, 1965;
+Ivakhnenko et al., 1967; Ivakhnenko, 1968, 1971) were perhaps the ﬁrst DL systems of the Feed-
+forward Multilayer Perceptron type, although there was earlier work on NNs with a single hidden
+layer (e.g., Joseph, 1961; Viglione, 1970)."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,4,0.538534,Deep Learning in Neural Networks.pdf,4,"1 Introduction to Deep Learning (DL) in Neural Networks (NNs)
+Which modiﬁable components of a learning system are responsible for its success or failure? What
+changes to them improve performance? This has been called thefundamental credit assignment prob-
+lem (Minsky, 1963). There are general credit assignment methods for universal problem solvers that
+are time-optimal in various theoretical senses (Sec. 6.8). The present survey, however, will focus on
+the narrower, but now commercially important, subﬁeld of Deep Learning (DL) in Artiﬁcial Neural
+Networks (NNs). A standard neural network (NN) consists of many simple, connected processors called neurons,
+each producing a sequence of real-valued activations. Input neurons get activated through sensors per-
+ceiving the environment, other neurons get activated through weighted connections from previously
+active neurons (details in Sec. 2). Some neurons may inﬂuence the environment by triggering actions."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,5,0.531785,Deep Learning in Neural Networks.pdf,5,"NNs, as well as general methods for direct and indirect search in the weight space of deep FNNs and
+RNNs, including successful policy gradient and evolutionary methods. 2 Event-Oriented Notation for Activation Spreading in NNs
+Throughout this paper, let i,j,k,t,p,q,r denote positive integer variables assuming ranges implicit
+in the given contexts. Letn,m,T denote positive integer constants. An NN’s topology may change over time (e.g., Sec. 5.3, 5.6.3). At any given moment, it can
+be described as a ﬁnite subset of units (or nodes or neurons) N ={u1,u 2,..., } and a ﬁnite set
+H⊆N×N of directed edges or connections between nodes. FNNs are acyclic graphs, RNNs cyclic. The ﬁrst (input) layer is the set of input units, a subset ofN. In FNNs, thek-th layer (k> 1) is the set
+of all nodesu∈N such that there is an edge path of lengthk− 1 (but no longer path) between some
+input unit andu. There may be shortcut connections between distant layers."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,6,0.523696,Deep Learning in Neural Networks.pdf,54,"Feature extraction through LOCOCODE. Neural Compu-
+tation, 11(3):679–714. Hochreiter, S., Younger, A. S., and Conwell, P. R. (2001b). Learning to learn using gradient descent. In Lecture Notes on Comp. Sci. 2130, Proc. Intl. Conf. on Artiﬁcial Neural Networks (ICANN-
+2001), pages 87–94. Springer: Berlin, Heidelberg. Hodgkin, A. L. and Huxley, A. F. (1952). A quantitative description of membrane current and its
+application to conduction and excitation in nerve. The Journal of Physiology, 117(4):500. Hoerzer, G. M., Legenstein, R., and Maass, W. (2014). Emergence of complex computational struc-
+tures from chaotic neural networks through reward-modulated Hebbian learning. Cerebral Cortex,
+24:677–690. Holden, S. B. (1994). On the Theory of Generalization and Self-Structuring in Linearly Weighted
+Connectionist Networks. PhD thesis, Cambridge University, Engineering Department. Holland, J. H. (1975). Adaptation in Natural and Artiﬁcial Systems . University of Michigan Press,
+Ann Arbor."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,7,0.522145,Deep Learning in Neural Networks.pdf,16,"5.19),
+has become an essential ingredient of many modern, competition-winning, feedforward, visual Deep
+Learners (Sec. 5.19–5.23). This work also introduced the MNIST data set of handwritten digits (Le-
+Cun et al., 1989), which over time has become perhaps the most famous benchmark of Machine
+Learning. CNNs helped to achieve good performance on MNIST (LeCun et al., 1990a) (CAP depth
+5) and on ﬁngerprint recognition (Baldi and Chauvin, 1993); similar CNNs were used commercially
+in the 1990s. 5.9 1991: Fundamental Deep Learning Problem of Gradient Descent
+A diploma thesis (Hochreiter, 1991) represented a milestone of explicit DL research. As mentioned
+in Sec. 5.6, by the late 1980s, experiments had indicated that traditional deep feedforward or re-
+current networks are hard to train by backpropagation (BP) (Sec. 5.5). Hochreiter’s work formally
+identiﬁed a major reason: Typical deep NNs suffer from the now famous problem of vanishing or
+exploding gradients."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,8,0.516372,Deep Learning in Neural Networks.pdf,15,"4.3) self-organizing Kohonen maps (e.g., Koikkalainen and Oja, 1990; Lampinen and Oja, 1992;
+Versino and Gambardella, 1996; Dittenbach et al., 2000; Rauber et al., 2002), hierarchical Gaussian
+potential function networks (Lee and Kil, 1991), layer-wise UL of feature hierarchies fed into SL
+classiﬁers (Behnke, 1999, 2003a), the Self-Organising Tree Algorithm (SOTA) (Herrero et al., 2001),
+and nonlinear Autoencoders (AEs) with more than 3 (e.g., 5) layers (Kramer, 1991; Oja, 1991; DeMers
+and Cottrell, 1993). Such AE NNs (Rumelhart et al., 1986) can be trained to map input patterns
+to themselves, for example, by compactly encoding them through activations of units of a narrow
+bottleneck hidden layer. Certain nonlinear AEs suffer from certain limitations (Baldi, 2012). LOCOCODE (Hochreiter and Schmidhuber, 1999) uses FMS (Sec. 5.6.3) to ﬁnd low-complexity
+AEs with low-precision weights describable by few bits of information, often producing sparse or
+factorial codes."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,9,0.51178,Deep Learning in Neural Networks.pdf,10,"(Ikeda et al., 1976; Farlow, 1984; Madala and Ivakhnenko, 1994; Ivakhnenko, 1995; Kondo,
+1998; Kord´ık et al., 2003; Witczak et al., 2006; Kondo and Ueno, 2008). 5.4 1979: Convolution + Weight Replication + Subsampling (Neocognitron)
+Apart from deep GMDH networks (Sec. 5.3), the Neocognitron (Fukushima, 1979, 1980, 2013a)
+was perhaps the ﬁrst artiﬁcial NN that deserved the attribute deep, and the ﬁrst to incorporate the
+neurophysiological insights of Sec. 5.2. It introduced convolutional NNs (today often called CNNs or
+convnets), where the (typically rectangular) receptive ﬁeld of a convolutional unit with given weight
+vector (a ﬁlter) is shifted step by step across a 2-dimensional array of input values, such as the pixels
+of an image (usually there are several such ﬁlters). The resulting 2D array of subsequent activation
+events of this unit can then provide inputs to higher-level units, and so on. Due to massive weight
+replication (Sec. 2), relatively few parameters (Sec."
+Sentence-based,What types of neural networks are mentioned in the abstract?,Recurrent neural networks,True,10,0.510662,Deep Learning in Neural Networks.pdf,79,"Learning deep and wide: A spectral method for learning deep
+networks. IEEE Transactions on Neural Networks and Learning Systems. Shavlik, J. W. (1994). Combining symbolic and neural learning. Machine Learning, 14(3):321–331. Shavlik, J. W. and Towell, G. G. (1989). Combining explanation-based and neural learning: An
+algorithm and empirical results. Connection Science, 1(3):233–255. Siegelmann, H. (1992). Theoretical Foundations of Recurrent Neural Networks. PhD thesis, Rutgers,
+New Brunswick Rutgers, The State of New Jersey. Siegelmann, H. T. and Sontag, E. D. (1991). Turing computability with neural nets. Applied Mathe-
+matics Letters, 4(6):77–80. Silva, F. M. and Almeida, L. B. (1990). Speeding up back-propagation. In Eckmiller, R., editor,
+Advanced Neural Computers, pages 151–158, Amsterdam. Elsevier. S´ıma, J. (1994). Loading deep networks is hard. Neural Computation, 6(5):842–850. S´ıma, J. (2002). Training a single sigmoidal neuron is hard. Neural Computation, 14(11):2709–2728."
+Sentence-based,What is the capital of Japan?,Tokyo,False,1,0.11229,Deep Learning in Neural Networks.pdf,12,"However, these algorithms either worked for shallow CAPs only, could not generalize
+to unseen CAP depths, had problems with greatly varying time lags between relevant events, needed
+external ﬁne tuning of delay constants, or suffered from other problems. In fact, it turned out that
+certain simple but deep benchmark problems used to evaluate such methods are more quickly solved
+by randomly guessing RNN weights until a solution is found (Hochreiter and Schmidhuber, 1996). While the RNN methods above were designed for DL of temporal sequences, the Neural Heat
+Exchanger (Schmidhuber, 1990c) consists of two parallel deep FNNs with opposite ﬂow directions. 12"
+Sentence-based,What is the capital of Japan?,Tokyo,False,2,0.111278,Deep Learning in Neural Networks.pdf,77,"MIT Press, Cambridge, MA. 77"
+Sentence-based,What is the capital of Japan?,Tokyo,False,3,0.07703,Deep Learning in Neural Networks.pdf,7,"6.4),
+whose search spaces may thus become smaller (and whose CAPs shallower) than those necessary for
+dealing with the raw data. UL is closely connected to the topics of regularization and compression
+(Sec. 4.4, 5.6.3). 7"
+Sentence-based,What is the capital of Japan?,Tokyo,False,4,0.072378,Deep Learning in Neural Networks.pdf,15,"The hope is that the codes in the hidden AE layers have properties that
+15"
+Sentence-based,What is the capital of Japan?,Tokyo,False,5,0.060499,Deep Learning in Neural Networks.pdf,29,"6.1 RL Through NN World Models Yields RNNs With Deep CAPs
+In the special case of an RL FNN controller C interacting with a deterministic, predictable environ-
+ment, a separate FNN called M can learn to become C’s world model through system identiﬁcation,
+predictingC’s inputs from previous actions and inputs (e.g., Werbos, 1981, 1987; Munro, 1987; Jor-
+dan, 1988; Werbos, 1989b,a; Robinson and Fallside, 1989; Jordan and Rumelhart, 1990; Schmidhu-
+ber, 1990d; Narendra and Parthasarathy, 1990; Werbos, 1992; Gomi and Kawato, 1993; Cochocki and
+Unbehauen, 1993; Levin and Narendra, 1995; Miller et al., 1995; Ljung, 1998; Prokhorov et al., 2001;
+Ge et al., 2010). Assume M has learned to produce accurate predictions. We can use M to substi-
+tute the environment. Then M andC form an RNN where M’s outputs become inputs of C, whose
+outputs (actions) in turn become inputs ofM. Now BP for RNNs (Sec."
+Sentence-based,What is the capital of Japan?,Tokyo,False,6,0.058264,Deep Learning in Neural Networks.pdf,84,"International Journal of Computer Vision, 25(2):109–143. 84"
+Sentence-based,What is the capital of Japan?,Tokyo,False,7,0.050366,Deep Learning in Neural Networks.pdf,29,"6.3), the most gen-
+eral variant of this technique uses RNNs instead of FNNs to implement bothM andC (Schmidhuber,
+1990d, 1991c; Feldkamp and Puskorius, 1998). This may cause deep CAPs not only for C but also
+forM. M can also be used to optimize expected reward by planning future action sequences (Schmid-
+huber, 1990d). In fact, the winners of the 2004 RoboCup World Championship in the fast
+league (Egorova et al., 2004) trained NNs to predict the effects of steering signals on fast robots
+with 4 motors for 4 different wheels. During play, such NN models were used to achieve desirable
+subgoals, by optimizing action sequences through quickly planning ahead. The approach also was
+used to create self-healing robots able to compensate for faulty motors whose effects do not longer
+match the predictions of the NN models (Gloye et al., 2005; Schmidhuber, 2007). 29"
+Sentence-based,What is the capital of Japan?,Tokyo,False,8,0.047685,Deep Learning in Neural Networks.pdf,73,"Connection Science, 11(1):5–40. 73"
+Sentence-based,What is the capital of Japan?,Tokyo,False,9,0.046471,Deep Learning in Neural Networks.pdf,6,"goal is to ﬁnd weights that yield episodes with a high sum of reward signals, through sequences of
+appropriate output actions. Sec. 5.5 will use the notation above to compactly describe a central algorithm of DL, namely,
+backpropagation (BP) for supervised weight-sharing FNNs and RNNs. (FNNs may be viewed as
+RNNs with certain ﬁxed zero weights.) Sec. 6 will address the more general RL case. 3 Depth of Credit Assignment Paths (CAPs) and of Problems
+To measure whether credit assignment in a given NN application is of the deep or shallow type, I
+introduce the concept of Credit Assignment Paths or CAPs, which are chains of possibly causal links
+between the events of Sec. 2, e.g., from input through hidden to output layers in FNNs, or through
+transformations over time in RNNs. Let us ﬁrst focus on SL. Consider two events xp andxq (1≤ p < q≤ T )."
+Sentence-based,What is the capital of Japan?,Tokyo,False,10,0.045959,Deep Learning in Neural Networks.pdf,34,"5.26), they usually activate all units at least slightly, and tend to be
+strongly connected, ignoring natural constraints of 3D hardware. It should be possible to improve
+them by adopting (1) and (2), and by minimizing non-differentiable energy and communication costs
+through direct search in program (weight) space (e.g., Sec. 6.6, 6.7). These more brain-like RNNs
+will allocate neighboring RNN parts to related behaviors, and distant RNN parts to less related ones,
+thus self-modularizing in a way more general than that of traditional self-organizing maps in FNNs
+(Sec. 5.6.4). They will also implement Occam’s razor (Sec. 4.4, 5.6.3) as a by-product of energy min-
+34"
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,1,0.196393,Deep Learning in Neural Networks.pdf,12,"However, these algorithms either worked for shallow CAPs only, could not generalize
+to unseen CAP depths, had problems with greatly varying time lags between relevant events, needed
+external ﬁne tuning of delay constants, or suffered from other problems. In fact, it turned out that
+certain simple but deep benchmark problems used to evaluate such methods are more quickly solved
+by randomly guessing RNN weights until a solution is found (Hochreiter and Schmidhuber, 1996). While the RNN methods above were designed for DL of temporal sequences, the Neural Heat
+Exchanger (Schmidhuber, 1990c) consists of two parallel deep FNNs with opposite ﬂow directions. 12"
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,2,0.1463,Deep Learning in Neural Networks.pdf,7,"6.4),
+whose search spaces may thus become smaller (and whose CAPs shallower) than those necessary for
+dealing with the raw data. UL is closely connected to the topics of regularization and compression
+(Sec. 4.4, 5.6.3). 7"
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,3,0.120467,Deep Learning in Neural Networks.pdf,6,"Suppose a CAP has the form (...,k,t,...,q ), wherek andt (possiblyt =q) are the ﬁrst succes-
+sive elements with modiﬁablewv(k,t). Then the length of the sufﬁx list (t,...,q ) is called the CAP’s
+depth (which is 0 if there are no modiﬁable links at all). This depth limits how far backwards credit
+assignment can move down the causal chain to ﬁnd a modiﬁable weight.1
+Suppose an episode and its event sequence x1,...,x T satisfy a computable criterion used to
+decide whether a given problem has been solved (e.g., total error E below some threshold). Then
+the set of used weights is called a solution to the problem, and the depth of the deepest CAP within
+the sequence is called the solution depth . There may be other solutions (yielding different event
+sequences) with different depths. Given some ﬁxed NN topology, the smallest depth of any solution
+is called the problem depth."
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,4,0.114479,Deep Learning in Neural Networks.pdf,15,"The hope is that the codes in the hidden AE layers have properties that
+15"
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,5,0.113979,Deep Learning in Neural Networks.pdf,14,"Compare perturbation tolerance conditions (Minai and Williams, 1994;
+Murray and Edwards, 1993; Hanson, 1990; Neti et al., 1992; Matsuoka, 1992; Bishop, 1993; Ker-
+lirzin and Vallet, 1993; Carter et al., 1990). An MDL-based, Bayesian argument suggests that ﬂat
+minima correspond to “simple” NNs and low expected overﬁtting. Compare Sec. 5.6.4 and more
+recent developments mentioned in Sec. 5.24. 5.6.4 Potential Beneﬁts of UL for SL (Compare Sec. 5.7, 5.10, 5.15)
+The notation of Sec. 2 introduced teacher-given labels dt."
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,6,0.110939,Deep Learning in Neural Networks.pdf,17,"The top level code of
+the initially unsupervised RNN stack, however, got so compact that (previously infeasible) sequence
+classiﬁcation through additional BP-based SL became possible. Essentially the system used UL to
+17"
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,7,0.102896,Deep Learning in Neural Networks.pdf,6,"Sometimes we also speak of the depth of an architecture: SL FNNs with ﬁxed topology imply a
+problem-independent maximal problem depth bounded by the number of non-input layers. Certain
+SL RNNs with ﬁxed weights for all connections except those to output units (Jaeger, 2001; Maass
+et al., 2002; Jaeger, 2004; Schrauwen et al., 2007) have a maximal problem depth of 1, because only
+the ﬁnal links in the corresponding CAPs are modiﬁable. In general, however, RNNs may learn to
+solve problems of potentially unlimited depth. Note that the deﬁnitions above are solely based on the depths of causal chains, and agnostic to the
+temporal distance between events. For example, shallow FNNs perceiving large “time windows” of
+input events may correctly classify long input sequences through appropriate output events, and thus
+solve shallow problems involving long time lags between relevant events. At which problem depth does Shallow Learning end, and Deep Learning begin?"
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,8,0.097409,Deep Learning in Neural Networks.pdf,22,"An improved version of the method was published later (Ji et al.,
+2013). 2009 also saw a GPU-DBN implementation (Raina et al., 2009) orders of magnitudes faster than
+previous CPU-DBNs (see Sec. 5.15); see also (Coates et al., 2013). The Convolutional DBN (Lee
+22"
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,9,0.085789,Deep Learning in Neural Networks.pdf,77,"MIT Press, Cambridge, MA. 77"
+Sentence-based,What is the boiling point of pure water at sea level?,100 degrees Celsius,False,10,0.077225,Deep Learning in Neural Networks.pdf,73,"Connection Science, 11(1):5–40. 73"
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,1,0.298772,Deep Learning in Neural Networks.pdf,23,"This is illustrated by better and better results obtained by various teams over
+time (Stallkamp et al., 2012) (the organisers eventually imposed a limit of 10 resubmissions). In the
+ﬁnal competition this was not possible. 23"
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,2,0.260025,Deep Learning in Neural Networks.pdf,23,"This is of interest for fully
+autonomous, self-driving cars in trafﬁc (e.g., Dickmanns et al., 1994). The GPU-MPCNN ensem-
+ble obtained 0.56% error rate and was twice better than human test subjects, three times better than
+the closest artiﬁcial NN competitor (Sermanet and LeCun, 2011), and six times better than the best
+non-neural method. A few months earlier, the qualifying round was won in a 1st stage online competition, albeit by
+a much smaller margin: 1.02% (Ciresan et al., 2011b) vs 1.03% for second place (Sermanet and
+LeCun, 2011). After the deadline, the organisers revealed that human performance on the test set
+was 1.19%. That is, the best methods already seemed human-competitive. However, during the
+qualifying it was possible to incrementally gain information about the test set by probing it through
+repeated submissions."
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,3,0.206116,Deep Learning in Neural Networks.pdf,2,"16
+5.10 1991: UL-Based History Compression Through a Deep Stack of RNNs . . . . . . . 17
+5.11 1992: Max-Pooling (MP): Towards MPCNNs (Compare Sec. 5.16, 5.19) . . . . . . . 18
+5.12 1994: Early Contest-Winning NNs . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+5.13 1995: Supervised Recurrent Very Deep Learner (LSTM RNN) . . . . . . . . . . . . 19
+5.14 2003: More Contest-Winning/Record-Setting NNs; Successful Deep NNs . . . . . . 21
+5.15 2006/7: UL For Deep Belief Networks / AE Stacks Fine-Tuned by BP . . . . . . . . 21
+5.16 2006/7: Improved CNNs / GPU-CNNs / BP for MPCNNs / LSTM Stacks . . . . . . 22
+5.17 2009: First Ofﬁcial Competitions Won by RNNs, and with MPCNNs . . . . . . . . . 22
+5.18 2010: Plain Backprop ( + Distortions) on GPU Breaks MNIST Record . . . . . . . . 23
+5.19 2011: MPCNNs on GPU Achieve Superhuman Vision Performance . . . . . . . . . 23
+5.20 2011: Hessian-Free Optimization for RNNs . . . . . . . . . . . . . . . . . . . . . ."
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,4,0.186965,Deep Learning in Neural Networks.pdf,24,"5.21 2012: First Contests Won on ImageNet, Object Detection, Segmentation
+In 2012, an ensemble of GPU-MPCNNs (Sec. 5.19) achieved best results on the ImageNet classiﬁca-
+tion benchmark (Krizhevsky et al., 2012), which is popular in the computer vision community. Here
+relatively large image sizes of 256x256 pixels were necessary, as opposed to only 48x48 pixels for
+the 2011 trafﬁc sign competition (Sec. 5.19). See further improvements in Sec. 5.22. Also in 2012, the biggest NN so far ( 109 free parameters) was trained in unsupervised mode
+(Sec. 5.7, 5.15) on unlabeled data (Le et al., 2012), then applied to ImageNet. The codes across its top
+layer were used to train a simple supervised classiﬁer, which achieved best results so far on 20,000
+classes. Instead of relying on efﬁcient GPU programming, this was done by brute force on 1,000
+standard machines with 16,000 cores. So by 2011/2012, excellent results had been achieved by Deep Learners in imagerecognition and
+classiﬁcation (Sec."
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,5,0.184065,Deep Learning in Neural Networks.pdf,22,"5.13, 5.16) became the ﬁrst RNNs to win ofﬁcial interna-
+tional pattern recognition contests (with secret test sets known only to the organisers). More precisely,
+three connected handwriting competitions at ICDAR 2009 in three different languages (French, Arab,
+Farsi) were won by deep LSTM RNNs without any a priori linguistic knowledge, performing simul-
+taneous segmentation and recognition. Compare (Graves and Schmidhuber, 2005; Graves et al., 2009;
+Schmidhuber et al., 2011; Graves et al., 2013; Graves and Jaitly, 2014) (Sec. 5.22). To detect human actions in surveillance videos, a 3-dimensional CNN (e.g., Jain and Seung, 2009;
+Prokhorov, 2010), combined with SVMs, was part of a larger system (Yang et al., 2009) using a bag
+of features approach (Nowak et al., 2006) to extract regions of interest. The system won three 2009
+TRECVID competitions. These were possibly the ﬁrst ofﬁcial international contests won with the
+help of (MP)CNNs (Sec. 5.16)."
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,6,0.17093,Deep Learning in Neural Networks.pdf,24,"This illustrates a general problem with benchmarks whose test sets are public, or at least can be
+probed to some extent: competing teams tend to overﬁt on the test set even when it cannot be directly
+used for training, only for evaluation. In 1997 many thought it a big deal that human chess world champion Kasparov was beaten by
+an IBM computer. But back then computers could not at all compete with little kids in visual pat-
+tern recognition, which seems much harder than chess from a computational perspective. Of course,
+the trafﬁc sign domain is highly restricted, and kids are still much better general pattern recognis-
+ers. Nevertheless, by 2011, deep NNs could already learn to rival them in important limited visual
+domains. An ensemble of GPU-MPCNNs was also the ﬁrst method to achieve human-competitive perfor-
+mance (around 0.2%) on MNIST (Ciresan et al., 2012c). This represented a dramatic improvement,
+since by then the MNIST record had hovered around 0.4% for almost a decade (Sec."
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,7,0.162647,Deep Learning in Neural Networks.pdf,50,"Gloye, A., Wiesel, F., Tenchio, O., and Simon, M. (2005). Reinforcing the driving quality of soccer
+playing robots by anticipation. IT - Information Technology, 47(5). G¨odel, K. (1931). ¨Uber formal unentscheidbare S ¨atze der Principia Mathematica und verwandter
+Systeme I. Monatshefte f¨ur Mathematik und Physik, 38:173–198. Goldberg, D. E. (1989).Genetic Algorithms in Search, Optimization and Machine Learning. Addison-
+Wesley, Reading, MA. Goldfarb, D. (1970). A family of variable-metric methods derived by variational means.Mathematics
+of computation, 24(109):23–26. Golub, G., Heath, H., and Wahba, G. (1979). Generalized cross-validation as a method for choosing
+a good ridge parameter. Technometrics, 21:215–224. Gomez, F. J. (2003). Robust Nonlinear Control through Neuroevolution. PhD thesis, Department of
+Computer Sciences, University of Texas at Austin. Gomez, F. J. and Miikkulainen, R. (2003). Active guidance for a ﬁnless rocket using neuroevolution. In Proc. GECCO 2003, Chicago."
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,8,0.156891,Deep Learning in Neural Networks.pdf,30,"To facilitate certain mathematical derivations, some discount delayed rewards, but such
+distortions of the original RL problem are problematic. Perhaps the most well-known RL NN is the world-class RL backgammon player (Tesauro, 1994),
+which achieved the level of human world champions by playing against itself. Its nonlinear, rather
+shallow FNN maps a large but ﬁnite number of discrete board states to values. More recently, a
+rather deep GPU-CNN was used in a traditional RL framework to play several Atari 2600 computer
+games directly from 84x84 pixel 60 Hz video input (Mnih et al., 2013), using experience replay (Lin,
+1993), extending previous work on Neural Fitted Q-Learning (NFQ) (Riedmiller, 2005). Even bet-
+ter results are achieved by using (slow) Monte Carlo tree planning to train comparatively fast deep
+NNs (Guo et al., 2014)."
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,9,0.153874,Deep Learning in Neural Networks.pdf,29,"6.3), the most gen-
+eral variant of this technique uses RNNs instead of FNNs to implement bothM andC (Schmidhuber,
+1990d, 1991c; Feldkamp and Puskorius, 1998). This may cause deep CAPs not only for C but also
+forM. M can also be used to optimize expected reward by planning future action sequences (Schmid-
+huber, 1990d). In fact, the winners of the 2004 RoboCup World Championship in the fast
+league (Egorova et al., 2004) trained NNs to predict the effects of steering signals on fast robots
+with 4 motors for 4 different wheels. During play, such NN models were used to achieve desirable
+subgoals, by optimizing action sequences through quickly planning ahead. The approach also was
+used to create self-healing robots able to compensate for faulty motors whose effects do not longer
+match the predictions of the NN models (Gloye et al., 2005; Schmidhuber, 2007). 29"
+Sentence-based,Who won the 2024 Olympic men's 100 metre final?,No answer in the provided paper,False,10,0.148517,Deep Learning in Neural Networks.pdf,12,"Alg. 5.5.1: One iteration of BP for weight-sharing FNNs or RNNs
+fort =T,..., 1 do
+to compute ∂E∂nett , inititalize real-valued error signal variableδt by 0;ifxt is an input event then continue with next iteration;
+if there is an erroret thenδt :=xt−dt;
+add to δt the value ∑k∈outtwv(t,k)δk; (this is the elegant and efﬁcient recursive chain ruleapplication collecting impacts ofnett on future events)
+multiplyδt byf ′t(nett);
+for allk∈int add to∆wv(k,t) the valuexkδt
+end for
+change eachwi in proportion to∆i and a small real-valued learning rate
+As of 2014, this simple BP method is still the central learning algorithm for FNNs and RNNs. No-
+tably, most contest-winning NNs up to 2014 (Sec. 5.12, 5.14, 5.17, 5.19, 5.21, 5.22) did not augment
+supervised BP by some sort of unsupervised learning as discussed in Sec. 5.7, 5.10, 5.15. 5.6 Late 1980s-2000 and Beyond: Numerous Improvements of NNs
+By the late 1980s it seemed clear that BP by itself (Sec. 5.5) was no panacea."

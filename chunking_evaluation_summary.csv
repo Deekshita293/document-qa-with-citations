@@ -1,0 +1,7 @@
+﻿strategy,k,answerable_question_count,fully_covered_answerable_questions,average_keyword_coverage_percent,unanswerable_question_count,average_top_similarity_unanswerable
+Recursive character,3,5,1,61.67,3,0.177549
+Recursive character,4,5,2,66.67,3,0.177549
+Recursive character,10,5,3,83.33,3,0.177549
+Sentence-based,3,5,1,49.33,3,0.202485
+Sentence-based,4,5,1,56.0,3,0.202485
+Sentence-based,10,5,2,62.67,3,0.202485
