@@ -49,7 +49,6 @@ These results measure keyword coverage, not complete factual correctness or cita
 
 ## Project Structure
 
-```text
 Document Q&A with Citations/
 ├── document loader/
 │   └── Deep Learning in Neural Networks.pdf
@@ -63,10 +62,9 @@ Document Q&A with Citations/
 ├── check_corpus.py
 ├── check_pdf_text.py
 ├── requirements.txt
-├── .env                 # Keep private; do not commit
+├── .env                 
 ├── .gitignore
 └── README.md
-```
 
 ## Setup
 
