@@ -2,149 +2,146 @@
 
 ## Overview
 
-Document Q&A with Citations is a Python-based question-answering system that answers questions using a PDF document and displays the retrieved source passages for traceability.
+Document Q&A with Citations is a Python-based question-answering system that answers questions using information from a PDF document. It displays the retrieved source passages so users can trace the answers back to the original document.
 
-The system retrieves relevant text, uses a Groq language model to generate answers, and returns an "I don't know" response when the available document evidence is insufficient.
+The system retrieves relevant text passages and uses a Groq language model to generate answers grounded in the retrieved context. When the available document evidence is insufficient, the system responds with **"I don't know based on the provided documents."**
 
 ## Features
 
-- PDF text extraction with page numbers.
-- Text chunking, embedding, and semantic retrieval.
-- Hybrid retrieval using semantic similarity and lexical overlap.
-- Answers generated using retrieved document context.
-- Source passages displayed with filenames, page numbers, and retrieval scores.
-- Refusal behavior for unsupported questions.
-- Comparison of recursive character chunking and sentence-based chunking.
+- Extracts text from PDF documents while preserving page numbers.
+- Splits document text into chunks for embedding and retrieval.
+- Uses semantic similarity and lexical overlap for hybrid retrieval.
+- Generates answers using retrieved document context.
+- Displays source passages with filenames, page numbers, and retrieval scores.
+- Refuses to answer questions when the available evidence is insufficient.
+- Compares recursive character chunking with sentence-based chunking.
 
 ## Technology Stack
 
-- Python
-- PyPDF
-- Sentence Transformers (`all-MiniLM-L6-v2`)
-- NumPy
-- Groq API
-- CSV-based evaluation
+- **Programming Language:** Python
+- **PDF Processing:** PyPDF
+- **Embeddings:** Sentence Transformers (`all-MiniLM-L6-v2`)
+- **Numerical Computing:** NumPy
+- **Language Model API:** Groq
+- **Evaluation:** CSV-based retrieval evaluation
 
 ## Dataset
 
-The project uses *Deep Learning in Neural Networks: An Overview*, a PDF containing 88 pages.
+The project uses *Deep Learning in Neural Networks: An Overview*, an 88-page PDF document. This document serves as the knowledge source for answering questions and evaluating retrieval performance.
 
 ## Chunking Strategy Evaluation
 
-Two chunking strategies were evaluated:
+Two chunking strategies were compared:
 
 1. Recursive character chunking
 2. Sentence-based chunking
 
-Initial evaluation results using average keyword coverage across five answerable questions:
+The initial evaluation measured average keyword coverage across five answerable questions at three retrieval settings.
 
-| Strategy | Top 3 passages | Top 4 passages | Top 10 passages |
+| Chunking Strategy | Top 3 Passages | Top 4 Passages | Top 10 Passages |
 |---|---:|---:|---:|
-| Recursive character | 61.33% | 66.67% | 83.33% |
+| Recursive character | 61.67% | 66.67% | 83.33% |
 | Sentence-based | 49.33% | 56.00% | 62.67% |
 
-Recursive character chunking performed better on this initial evaluation set. We selected four retrieved passages as a balance between retrieval quality and the amount of context provided to the language model.
+Recursive character chunking achieved higher average keyword coverage than sentence-based chunking at all three retrieval settings in this evaluation. We selected four retrieved passages as a practical balance between retrieval coverage and the amount of context supplied to the language model.
 
-These results measure keyword coverage, not complete factual correctness or citation accuracy. Further evaluation is needed before generalizing the findings.
+The evaluation also included three unanswerable questions. Their average top similarity scores were 0.1775 for recursive character chunking and 0.2025 for sentence-based chunking. These scores show that similarity alone does not guarantee that retrieved passages contain sufficient evidence to answer a question.
 
-## Project Structure
+These results are preliminary: the evaluation uses only five answerable questions, and keyword coverage does not establish complete factual correctness or citation accuracy. Further testing is needed before drawing broader conclusions.
 
-Document Q&A with Citations/
+Project Structure
+
+document-qa-with-citations/
 ├── document loader/
 │   └── Deep Learning in Neural Networks.pdf
 ├── qa.py
 ├── retrieval_comparison.py
 ├── chunking_comparison.py
 ├── evaluation_questions.csv
-├── retrieval_evaluation_details.csv
 ├── retrieval_results.csv
+├── retrieval_evaluation_details.csv
 ├── chunking_evaluation_summary.csv
 ├── check_corpus.py
 ├── check_pdf_text.py
 ├── requirements.txt
-├── .env                 
 ├── .gitignore
-└── README.md
+├── README.md
+└── FINAL_REPORT.md
 
-## Setup
+Setup
 
-### 1. Clone the repository
+1. Clone the repository
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd "Document Q&A with Citations"
-```
+git clone https://github.com/Deekshita293/document-qa-with-citations.git
+cd document-qa-with-citations
 
-### 2. Create and activate a virtual environment
+2. Create and activate a virtual environment
 
-Windows:
+On Windows PowerShell:
 
-```bash
 python -m venv .venv
-.venv\Scripts\activate
-```
+.venv\Scripts\Activate.ps1
 
-### 3. Install dependencies
+3. Install dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
-### 4. Configure the API key
+4. Configure the Groq API key
 
-Create a `.env` file in the project directory:
+Create a file named .env in the project root directory and add your own API key:
 
-```text
 GROQ_API_KEY=your_groq_api_key
-```
 
-Use the environment variable names expected by your code. Never publish your actual API key.
+Replace your_groq_api_key with your actual key. Never commit or publish your .env file or API key.
 
-### 5. Run the question-answering system
+5. Run the question-answering system
 
-```bash
 python qa.py
-```
 
-Ask questions about the PDF. The application displays an answer and its retrieved source passages.
+Enter questions about the PDF. The application displays an answer along with retrieved source passages, filenames, page numbers, and retrieval scores.
 
-### 6. Run the retrieval comparison
+6. Run the retrieval comparison
 
-```bash
+Stop the question-answering program if it is running, then execute:
+
 python retrieval_comparison.py
-```
 
-Check the generated CSV files for the comparison results.
+Review the generated CSV files to inspect the retrieval evaluation results.
 
 ## Example Questions
 
+**Questions supported by the document:**
 - How do deep neural networks learn?
 - What is the vanishing gradient problem?
 - What is the role of LSTM in deep learning?
+
+**Question outside the document's scope:**
 - Who won the 2024 Olympic men's 100 metre final?
 
-The final question is outside the document's subject matter and should be refused when the available evidence is insufficient.
+The final question is unrelated to the document's subject matter. The system is expected to respond with **"I don't know based on the provided documents."** when the available evidence does not support an answer.
 
 ## Limitations
 
-- The evaluation dataset is small.
+- The evaluation dataset contains only a small number of questions.
 - Keyword coverage does not fully measure answer correctness.
-- Similarity scores alone cannot guarantee that retrieved passages support an answer.
-- Citation presence does not guarantee factual support.
-- The system has been tested on a specific PDF and requires broader evaluation for other document collections.
+- Similarity scores alone cannot guarantee that retrieved passages contain sufficient evidence.
+- Displaying citations does not guarantee that the generated answer is fully supported by the cited passages.
+- The system has been evaluated using a specific PDF and requires further testing on other documents and document collections.
 
 ## Future Improvements
 
-- Expand the evaluation dataset.
-- Measure answer correctness and citation support.
-- Improve retrieval filtering and refusal behavior.
-- Add a user interface.
-- Record a project demonstration video.
+- Expand the evaluation dataset with more answerable and unanswerable questions.
+- Evaluate answer correctness and citation support.
+- Improve retrieval filtering and unsupported-question refusal behavior.
+- Develop a user-friendly interface.
+- Record and publish a project demonstration video.
 
 ## Security
 
-API keys and local environment files must not be committed to GitHub.
+- Store API keys in a local `.env` file.
+- Add `.env` and other sensitive configuration files to `.gitignore`.
+- Never commit API keys or secrets to GitHub.
 
 ## License
 
-Add an appropriate license before distributing the project publicly.
+This project does not currently specify a license. Add an appropriate open-source license before allowing others to reuse, modify, or distribute the project under its terms.
